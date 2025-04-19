@@ -25,7 +25,7 @@ layers:
   - Y
   - '-'
   - \
-  - TAB
+  - bluetooth
   - A
   - R
   - S
@@ -42,7 +42,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: '&lt 3'}
+  - B
   - PLAY PAUSE
   - MUTE
   - K
@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -208,7 +208,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
