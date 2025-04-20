@@ -25,11 +25,11 @@ layers:
   - Y
   - '-'
   - \
-  - F12
+  - BACKSPACE
   - A
   - R
   - S
-  - {t: T, h: nav_sym--1}
+  - {t: T, h: nav_sym}
   - D
   - H
   - N
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ENTER
-  - bluetooth--3
+  - {t: F12, h: bluetooth}
   - Z
   - X
   - C
@@ -57,11 +57,11 @@ layers:
   - {t: HOME, h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: END, h: num_f--2}
+  - {t: END, h: num_f}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav_sym--1:
+  nav_sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num_f--2:
+  num_f:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,7 +183,7 @@ layers:
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  bluetooth--3:
+  bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
