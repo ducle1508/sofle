@@ -29,7 +29,7 @@ layers:
   - A
   - R
   - S
-  - {t: T, h: nav_sym}
+  - {t: T, h: nav_sym--1}
   - D
   - H
   - N
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ENTER
-  - bluetooth
+  - bluetooth--3
   - Z
   - X
   - C
@@ -54,14 +54,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
-  - {t: SPACE, h: LEFT GUI}
   - {t: HOME, h: CAPSLOCK}
-  - {t: END, h: num_f}
+  - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: END, h: num_f--2}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav_sym:
+  nav_sym--1:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,14 +115,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
+  - HOME
   - {t: SPACE, h: LEFT GUI}
-  - {t: HOME, h: CAPSLOCK}
-  - {t: END, h: num_f}
   - {t: BACKSPACE, h: LEFT SHIFT}
+  - END
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num_f:
+  num_f--2:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,14 +176,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
+  - HOME
   - {t: SPACE, h: LEFT GUI}
-  - {t: HOME, h: CAPSLOCK}
-  - {t: END, h: num_f, type: held}
   - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: END, type: held}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  bluetooth:
+  bluetooth--3:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
