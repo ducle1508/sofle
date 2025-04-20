@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - F12
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -12,8 +12,8 @@ layers:
   - '8'
   - '9'
   - '0'
+  - {t: ▽, type: trans}
   - '`'
-  - BACKSPACE
   - Q
   - W
   - F
@@ -25,7 +25,7 @@ layers:
   - Y
   - '-'
   - \
-  - bluetooth
+  - F12
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ENTER
-  - ESC
+  - bluetooth
   - Z
   - X
   - C
@@ -54,10 +54,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
-  - {t: HOME, h: CAPS}
   - {t: SPACE, h: LEFT GUI}
-  - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: HOME, h: CAPSLOCK}
   - {t: END, h: num_f}
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
   - TAB
   - ENTER
   - {type: held}
@@ -98,7 +98,7 @@ layers:
   - RIGHT
   - )
   - {t: ▽, type: trans}
-  - F12
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,10 +115,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
-  - HOME
   - {t: SPACE, h: LEFT GUI}
+  - {t: HOME, h: CAPSLOCK}
+  - {t: END, h: num_f}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - END
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,12 +175,12 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - {t: SPACE, h: LEFT GUI}
+  - {t: HOME, h: CAPSLOCK}
+  - {t: END, h: num_f, type: held}
+  - {t: BACKSPACE, h: LEFT SHIFT}
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bluetooth:
@@ -208,19 +208,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
