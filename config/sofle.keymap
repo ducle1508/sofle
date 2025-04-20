@@ -13,9 +13,12 @@
 #define RAISE 2
 #define ADJUST 3
 
-&lt { tapping-term-ms = <300>; };
-
 &mt {
+    tapping-term-ms = <300>;
+    flavor = "tap-preferred";
+};
+
+&lt {
     tapping-term-ms = <300>;
     flavor = "tap-preferred";
 };
@@ -35,7 +38,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        BASE--0 {
+        BASE {
             label = "default";
 
             // ------------------------------------------------------------------------------------------------------------
@@ -46,11 +49,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans     &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                                                             &kp N6     &kp N7            &kp N8     &kp N9   &kp N0          &trans
-&kp GRAVE  &kp Q   &kp W   &kp F   &kp P         &kp G                                                              &kp J      &kp L             &kp U      &kp Y    &kp MINUS       &kp BACKSLASH
-&kp F12    &kp A   &kp R   &kp S   &lt 1 T       &kp D                                                              &kp H      &kp N             &kp E      &kp I    &kp O           &kp ENTER
-&mo 3      &kp Z   &kp X   &kp C   &kp V         &kp B              &kp C_PLAY_PAUSE      &kp C_MUTE                &kp K      &kp M             &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp SLASH
-                   &trans  &trans  &kp LEFT_ALT  &mt CAPSLOCK HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 END  &kp LEFT_CONTROL  &trans     &trans
+&trans         &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                                                             &kp N6     &kp N7            &kp N8     &kp N9   &kp N0          &trans
+&kp GRAVE      &kp Q   &kp W   &kp F   &kp P         &kp G                                                              &kp J      &kp L             &kp U      &kp Y    &kp MINUS       &kp BACKSLASH
+&kp BACKSPACE  &kp A   &kp R   &kp S   &lt 1 T       &kp D                                                              &kp H      &kp N             &kp E      &kp I    &kp O           &kp ENTER
+&lt 3 F12      &kp Z   &kp X   &kp C   &kp V         &kp B              &kp C_PLAY_PAUSE      &kp C_MUTE                &kp K      &kp M             &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp SLASH
+                       &trans  &trans  &kp LEFT_ALT  &mt CAPSLOCK HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 END  &kp LEFT_CONTROL  &trans     &trans
             >;
 
             sensor-bindings =
@@ -58,19 +61,19 @@
                 <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
-        nav_sym--1 {
+        nav_sym {
             bindings = <
-&trans         &trans      &trans   &trans     &trans        &trans                                                    &trans                &trans            &trans          &trans             &trans                 &trans
-&kp BACKSPACE  &trans      &trans   &trans     &trans        &trans                                                    &kp PAGE_UP           &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
-&trans         &kp ESCAPE  &kp TAB  &kp ENTER  &trans        &trans                                                    &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &trans
-&trans         &trans      &trans   &trans     &trans        &trans    &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
-                           &trans   &trans     &kp LEFT_ALT  &kp HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp END               &kp LEFT_CONTROL  &trans          &trans
+&trans  &trans      &trans   &trans     &trans        &trans                                                    &trans                &trans            &trans          &trans             &trans                 &trans
+&trans  &trans      &trans   &trans     &trans        &trans                                                    &kp PAGE_UP           &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
+&trans  &kp ESCAPE  &kp TAB  &kp ENTER  &trans        &trans                                                    &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans      &trans   &trans     &trans        &trans    &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
+                    &trans   &trans     &kp LEFT_ALT  &kp HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp END               &kp LEFT_CONTROL  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
-        num_f--2 {
+        num_f {
             bindings = <
 &trans   &trans           &trans        &trans        &trans        &trans                                                        &trans        &trans            &trans        &trans                &trans                 &trans
 &trans   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PERCENT                                                   &kp CARET     &kp AMPERSAND     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
@@ -80,7 +83,7 @@
             >;
         };
 
-        bluetooth--3 {
+        bluetooth {
             bindings = <
 &trans      &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
