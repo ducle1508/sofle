@@ -29,7 +29,7 @@ layers:
   - A
   - R
   - S
-  - {t: T, h: '&lt 1'}
+  - {t: T, h: nav_sym}
   - D
   - H
   - N
@@ -57,7 +57,7 @@ layers:
   - {t: HOME, h: CAPS}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: END, h: '&lt 2'}
+  - {t: END, h: num_f}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - TAB
   - ENTER
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - (
   - LEFT
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
