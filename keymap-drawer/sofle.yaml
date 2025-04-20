@@ -55,10 +55,10 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ALT
   - {t: HOME, h: CAPS}
-  - {t: SPACE, h: LGUI}
-  - {t: BACKSPACE, h: LSHFT}
+  - {t: SPACE, h: LEFT GUI}
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: END, h: '&lt 2'}
-  - LCTRL
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav_sym:
@@ -114,12 +114,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
+  - LEFT ALT
   - HOME
-  - {t: SPACE, h: LGUI}
-  - {t: BACKSPACE, h: LSHFT}
+  - {t: SPACE, h: LEFT GUI}
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - END
-  - LCTRL
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f:
