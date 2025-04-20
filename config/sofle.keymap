@@ -46,11 +46,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp F12        &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                                                         &kp N6     &kp N7            &kp N8     &kp N9   &kp N0          &kp GRAVE
-&kp BACKSPACE  &kp Q   &kp W   &kp F   &kp P         &kp G                                                          &kp J      &kp L             &kp U      &kp Y    &kp MINUS       &kp BACKSLASH
-&mo 3          &kp A   &kp R   &kp S   &lt 1 T       &kp D                                                          &kp H      &kp N             &kp E      &kp I    &kp O           &kp ENTER
-&kp ESC        &kp Z   &kp X   &kp C   &kp V         &kp B          &kp C_PLAY_PAUSE      &kp C_MUTE                &kp K      &kp M             &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp SLASH
-                       &trans  &trans  &kp LEFT_ALT  &mt CAPS HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 END  &kp LEFT_CONTROL  &trans     &trans
+&trans     &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                                               &kp N6                    &kp N7            &kp N8     &kp N9   &kp N0          &trans
+&kp GRAVE  &kp Q   &kp W   &kp F   &kp P         &kp G                                                &kp J                     &kp L             &kp U      &kp Y    &kp MINUS       &kp BACKSLASH
+&kp F12    &kp A   &kp R   &kp S   &lt 1 T       &kp D                                                &kp H                     &kp N             &kp E      &kp I    &kp O           &kp ENTER
+&mo 3      &kp Z   &kp X   &kp C   &kp V         &kp B               &kp C_PLAY_PAUSE     &kp C_MUTE  &kp K                     &kp M             &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp SLASH
+                   &trans  &trans  &kp LEFT_ALT  &mt LEFT_GUI SPACE  &mt CAPSLOCK HOME    &lt 2 END   &mt LEFT_SHIFT BACKSPACE  &kp LEFT_CONTROL  &trans     &trans
             >;
 
             sensor-bindings =
@@ -60,21 +60,21 @@
 
         nav_sym {
             bindings = <
-&trans   &trans  &trans   &trans     &trans        &trans                                                    &trans                &trans            &trans          &trans             &trans                 &trans
-&trans   &trans  &trans   &trans     &trans        &trans                                                    &kp PAGE_UP           &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
-&trans   &trans  &kp TAB  &kp ENTER  &trans        &trans                                                    &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &trans
-&kp F12  &trans  &trans   &trans     &trans        &trans    &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
-                 &trans   &trans     &kp LEFT_ALT  &kp HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp END               &kp LEFT_CONTROL  &trans          &trans
+&trans         &trans      &trans   &trans     &trans        &trans                                              &trans                    &trans            &trans          &trans             &trans                 &trans
+&kp BACKSPACE  &trans      &trans   &trans     &trans        &trans                                              &kp PAGE_UP               &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
+&trans         &kp ESCAPE  &kp TAB  &kp ENTER  &trans        &trans                                              &kp LEFT_PARENTHESIS      &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &trans
+&trans         &trans      &trans   &trans     &trans        &trans              &trans               &trans     &kp ENTER                 &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
+                           &trans   &trans     &kp LEFT_ALT  &mt LEFT_GUI SPACE  &mt CAPSLOCK HOME    &lt 2 END  &mt LEFT_SHIFT BACKSPACE  &kp LEFT_CONTROL  &trans          &trans
             >;
         };
 
         num_f {
             bindings = <
-&trans   &trans           &trans        &trans        &trans        &trans                          &trans        &trans         &trans        &trans                &trans                 &trans
-&trans   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PERCENT                     &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
-&kp F12  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5        &trans    &trans  &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp F11
-                          &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans         &trans        &trans
+&trans   &trans           &trans        &trans        &trans        &trans                                              &trans                    &trans            &trans        &trans                &trans                 &trans
+&trans   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PERCENT                                         &kp CARET                 &kp AMPERSAND     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                        &kp NUMBER_6              &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
+&kp F12  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5              &trans               &trans     &kp F6                    &kp F7            &kp F8        &kp F9                &kp F10                &kp F11
+                          &trans        &trans        &kp LEFT_ALT  &mt LEFT_GUI SPACE  &mt CAPSLOCK HOME    &lt 2 END  &mt LEFT_SHIFT BACKSPACE  &kp LEFT_CONTROL  &trans        &trans
             >;
         };
 
