@@ -66,6 +66,8 @@
 &trans         &trans      &trans   &trans     &trans        &trans    &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
                            &trans   &trans     &kp LEFT_ALT  &kp HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp END               &kp LEFT_CONTROL  &trans          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         num_f--2 {
