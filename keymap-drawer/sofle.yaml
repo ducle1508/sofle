@@ -18,7 +18,7 @@ layers:
   - W
   - F
   - P
-  - G
+  - B
   - J
   - L
   - U
@@ -30,8 +30,8 @@ layers:
   - R
   - S
   - {t: T, h: nav_sym}
-  - D
-  - H
+  - G
+  - K
   - N
   - E
   - I
@@ -41,12 +41,12 @@ layers:
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - PLAY PAUSE
   - MUTE
-  - K
   - M
+  - H
   - ','
   - .
   - ''''
