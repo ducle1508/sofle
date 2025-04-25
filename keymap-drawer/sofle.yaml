@@ -18,7 +18,7 @@ layers:
   - W
   - F
   - P
-  - B
+  - D
   - J
   - L
   - U
@@ -31,7 +31,7 @@ layers:
   - S
   - {t: T, h: nav_sym}
   - G
-  - K
+  - H
   - N
   - E
   - I
@@ -41,12 +41,12 @@ layers:
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - PLAY PAUSE
   - MUTE
+  - K
   - M
-  - H
   - ','
   - .
   - ''''
@@ -98,7 +98,7 @@ layers:
   - RIGHT
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,10 +176,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
-  - HOME
-  - {t: SPACE, h: LEFT GUI}
+  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: END, type: held}
+  - {type: held}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
