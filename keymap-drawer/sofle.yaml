@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - ESCAPE
   - TAB
-  - ENTER
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - (
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
@@ -144,8 +144,8 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
+  - F8
+  - F9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -169,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - F6
   - F7
-  - F8
-  - F9
+  - ','
+  - .
   - F10
   - F11
   - {t: ▽, type: trans}
