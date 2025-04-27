@@ -13,6 +13,16 @@
 #define RAISE 2
 #define ADJUST 3
 
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "hold-preferred";
+};
+
+&lt {
+    tapping-term-ms = <250>;
+    flavor = "hold-preferred";
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
@@ -22,6 +32,27 @@
         adjust_layer {
             if-layers = <1 1>;
             then-layer = <1>;
+        };
+    };
+
+    behaviors {
+        mt_300: mt_300 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_300";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        lt_300: lt_300 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_300";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
         };
     };
 
@@ -41,7 +72,7 @@
             bindings = <
 &trans         &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                                                             &kp N6     &kp N7            &kp N8     &kp N9   &kp N0          &trans
 &kp GRAVE      &kp Q   &kp W   &kp F   &kp P         &kp D                                                              &kp J      &kp L             &kp U      &kp Y    &kp MINUS       &kp BACKSLASH
-&kp BACKSPACE  &kp A   &kp R   &kp S   &lt 1 T       &kp G                                                              &kp H      &kp N             &kp E      &kp I    &kp O           &kp ENTER
+&kp BACKSPACE  &kp A   &kp R   &kp S   &lt_300 1 T   &kp G                                                              &kp H      &kp N             &kp E      &kp I    &kp O           &kp ENTER
 &lt 3 F12      &kp Z   &kp X   &kp C   &kp V         &kp B              &kp C_PLAY_PAUSE      &kp C_MUTE                &kp K      &kp M             &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp SLASH
                        &trans  &trans  &kp LEFT_ALT  &mt CAPSLOCK HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 END  &kp LEFT_CONTROL  &trans     &trans
             >;
@@ -53,20 +84,20 @@
 
         nav_sym {
             bindings = <
-&trans          &trans      &trans   &trans     &trans        &trans                                                    &trans                &trans            &trans          &trans             &trans                 &trans
-&trans          &trans      &trans   &trans     &trans        &trans                                                    &kp PAGE_UP           &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
-&trans          &kp ESCAPE  &kp TAB  &kp ENTER  &trans        &trans                                                    &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &trans
-&kp LEFT_SHIFT  &trans      &trans   &trans     &trans        &trans    &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
-                            &trans   &trans     &kp LEFT_ALT  &kp HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp END               &kp LEFT_CONTROL  &trans          &trans
+&trans          &trans      &trans   &trans  &trans        &trans                                                     &trans                &trans            &trans          &trans             &trans                 &trans
+&trans          &trans      &trans   &trans  &trans        &trans                                                     &kp PAGE_UP           &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
+&trans          &kp ESCAPE  &kp TAB  &trans  &trans        &trans                                                     &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &trans
+&kp LEFT_SHIFT  &trans      &trans   &trans  &trans        &kp ENTER  &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
+                            &trans   &trans  &kp LEFT_ALT  &kp HOME   &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp END               &kp LEFT_CONTROL  &trans          &trans
             >;
         };
 
         num_f {
             bindings = <
-&trans   &trans           &trans        &trans        &trans        &trans                                                   &trans        &trans            &trans        &trans                &trans                 &trans
-&trans   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PERCENT                                              &kp CARET     &kp AMPERSAND     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                             &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
-&kp F12  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5        &trans           &trans                    &kp F6        &kp F7            &kp F8        &kp F9                &kp F10                &kp F11
+&trans   &trans           &trans        &trans        &trans        &trans                                                   &trans        &trans            &trans        &trans        &trans        &trans
+&trans   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PERCENT                                              &kp CARET     &kp AMPERSAND     &kp ASTERISK  &kp F8        &kp F9        &trans
+&trans   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                             &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&kp F12  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5        &trans           &trans                    &kp F6        &kp F7            &kp COMMA     &kp DOT       &kp F10       &kp F11
                           &trans        &trans        &kp LEFT_ALT  &trans        &kp BACKSPACE    &mt LEFT_SHIFT BACKSPACE  &trans        &kp LEFT_CONTROL  &trans        &trans
             >;
         };
