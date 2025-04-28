@@ -70,11 +70,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans                &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                                                      &kp N6     &kp N7            &kp N8     &kp N9   &kp N0            &trans
-&lt_400 3 GRAVE       &kp Q   &kp W   &kp E   &kp R         &kp T                                                       &kp Y      &kp U             &kp I      &kp O    &kp P             &kp BACKSLASH
-&kp BACKSPACE         &kp A   &kp S   &kp D   &kp F         &kp G                                                       &kp H      &kp J             &kp K      &kp L    &kp SINGLE_QUOTE  &kp ENTER
-&mt_400 LEFT_ALT F12  &kp Z   &kp X   &kp C   &kp V         &kp B       &kp C_PLAY_PAUSE      &kp C_MUTE                &kp N      &kp M             &kp COMMA  &kp DOT  &kp MINUS         &kp SLASH
-                              &trans  &trans  &kp CAPSLOCK  &lt 1 HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 END  &kp LEFT_CONTROL  &trans     &tog 4
+&trans                &kp N1  &kp N2  &kp N3  &kp N4                     &kp N5                                                            &kp N6       &kp N7                          &kp N8     &kp N9   &kp N0     &trans
+&lt_400 3 GRAVE       &kp Q   &kp W   &kp F   &kp P                      &kp D                                                             &kp J        &kp L                           &kp U      &kp Y    &kp MINUS  &kp BACKSLASH
+&kp BACKSPACE         &kp A   &kp R   &kp S   &kp T                      &kp G                                                             &kp H        &kp N                           &kp E      &kp I    &kp O      &kp SEMICOLON
+&mt_400 LEFT_ALT F12  &kp Z   &kp X   &kp C   &kp V                      &kp B             &kp C_PLAY_PAUSE      &kp C_MUTE                &kp N        &kp M                           &kp COMMA  &kp DOT  &kp EQUAL  &kp SLASH
+                              &trans  &trans  &mt CAPSLOCK SINGLE_QUOTE  &lt 1 UNDERSCORE  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 ENTER  &mt LEFT_CONTROL DOUBLE_QUOTES  &trans     &trans
             >;
 
             sensor-bindings =
@@ -82,17 +82,17 @@
                 <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
-        nav_sym {
+        nav_sym_media {
             bindings = <
-&trans        &trans          &trans   &trans  &trans        &trans                                                     &trans                &trans            &trans          &trans             &trans                 &trans
-&trans        &trans          &trans   &trans  &trans        &trans                                                     &kp PAGE_UP           &kp COLON         &kp UP          &kp EQUAL          &kp PAGE_DOWN          &trans
-&kp HOME      &kp ESCAPE      &kp TAB  &trans  &kp LEFT_GUI  &trans                                                     &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN        &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp END
-&kp LEFT_ALT  &kp LEFT_SHIFT  &trans   &trans  &trans        &kp ENTER  &trans                &trans                    &kp ENTER             &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp SEMICOLON          &trans
-                              &trans   &trans  &trans        &trans     &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &trans                &trans            &trans          &trans
+&trans        &trans             &trans            &trans           &trans            &trans                                                  &trans                &trans             &trans     &trans             &trans                 &trans
+&trans        &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans            &trans                                                  &trans                &kp LEFT_BRACKET   &kp UP     &kp RIGHT_BRACKET  &trans                 &trans
+&kp HOME      &kp ESCAPE         &kp TAB           &kp ENTER        &kp LEFT_GUI      &trans                                                  &kp LEFT_PARENTHESIS  &kp LEFT           &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp END
+&kp LEFT_ALT  &kp LEFT_SHIFT     &trans            &trans           &trans            &trans  &trans                &trans                    &kp PAGE_UP           &kp LEFT_BRACE     &kp SPACE  &kp RIGHT_BRACE    &kp PAGE_DOWN          &trans
+                                 &trans            &trans           &kp SINGLE_QUOTE  &trans  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp UNDERSCORE        &kp DOUBLE_QUOTES  &trans     &trans
             >;
         };
 
-        num_f {
+        num_f_sym {
             bindings = <
 &trans   &trans           &trans        &trans        &trans        &trans                                                         &trans        &trans         &trans        &trans        &trans        &trans
 &trans   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PERCENT                                                    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp F8        &kp F9        &trans
@@ -110,21 +110,6 @@
 &bt BT_CLR  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
             >;
-        };
-
-        colemak-dg {
-            label = "colemak-dg";
-            bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0          &trans
-&trans  &kp Q   &kp W   &kp F   &kp P   &kp D                                                   &kp J   &kp L   &kp U      &kp Y    &kp MINUS       &kp BACKSLASH
-&trans  &kp A   &kp R   &kp S   &kp T   &kp G                                                   &kp H   &kp N   &kp E      &kp I    &kp O           &kp ENTER
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B   &kp C_PLAY_PAUSE      &kp C_MUTE                &kp K   &kp M   &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp SLASH
-                &trans  &trans  &trans  &trans  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &trans  &trans  &trans     &trans
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
     };
 };
