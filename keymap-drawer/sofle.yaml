@@ -13,31 +13,31 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - '`'
+  - {t: '`', h: bluetooth}
   - Q
   - W
-  - F
-  - P
-  - D
-  - J
-  - L
-  - U
+  - E
+  - R
+  - T
   - Y
-  - '-'
+  - U
+  - I
+  - O
+  - P
   - \
   - BACKSPACE
   - A
-  - R
   - S
-  - {t: T, h: nav_sym}
+  - D
+  - F
   - G
   - H
-  - N
-  - E
-  - I
-  - O
+  - J
+  - K
+  - L
+  - ''''
   - ENTER
-  - {t: F12, h: bluetooth}
+  - {t: F12, h: LEFT ALT}
   - Z
   - X
   - C
@@ -45,22 +45,22 @@ layers:
   - B
   - PLAY PAUSE
   - MUTE
-  - K
+  - N
   - M
   - ','
   - .
-  - ''''
+  - '-'
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
-  - {t: HOME, h: CAPSLOCK}
+  - CAPSLOCK
+  - {t: HOME, h: nav_sym}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: END, h: num_f}
   - LEFT CONTROL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: colemak-dg, h: toggle}
   nav_sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,20 +86,20 @@ layers:
   - '='
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
   - ESCAPE
   - TAB
   - {t: ▽, type: trans}
-  - {type: held}
+  - LEFT GUI
   - {t: ▽, type: trans}
   - (
   - LEFT
   - DOWN
   - RIGHT
   - )
-  - {t: ▽, type: trans}
+  - END
+  - LEFT ALT
   - LEFT SHIFT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,12 +114,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
-  - HOME
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - END
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f:
@@ -175,12 +175,12 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
   - {t: ▽, type: trans}
   - BACKSPACE
+  - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {type: held}
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bluetooth:
@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,6 +240,67 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  colemak-dg:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - F
+  - P
+  - D
+  - J
+  - L
+  - U
+  - Y
+  - '-'
+  - \
+  - {t: ▽, type: trans}
+  - A
+  - R
+  - S
+  - T
+  - G
+  - H
+  - N
+  - E
+  - I
+  - O
+  - ENTER
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - PLAY PAUSE
+  - MUTE
+  - K
+  - M
+  - ','
+  - .
+  - ''''
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: LEFT GUI}
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
