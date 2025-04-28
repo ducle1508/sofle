@@ -16,27 +16,27 @@ layers:
   - {t: '`', h: bluetooth}
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - D
+  - J
+  - L
+  - U
+  - Y
+  - '-'
   - \
   - BACKSPACE
   - A
+  - R
   - S
-  - D
-  - F
+  - T
   - G
   - H
-  - J
-  - K
-  - L
-  - ''''
-  - ENTER
+  - N
+  - E
+  - I
+  - O
+  - ;
   - {t: F12, h: LEFT ALT}
   - Z
   - X
@@ -49,21 +49,19 @@ layers:
   - M
   - ','
   - .
-  - '-'
+  - '='
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
-  - {t: HOME, h: nav_sym}
+  - {t: '''', h: CAPSLOCK}
+  - {t: _, h: nav_sym_media}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: END, h: num_f}
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
-  - {t: colemak-dg, h: toggle}
-  nav_sym:
+  - {t: ENTER, h: num_f_sym}
+  - {t: '"', h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  nav_sym_media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,19 +75,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - PLAY PAUSE
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
-  - ':'
+  - '['
   - UP
-  - '='
-  - PAGE DOWN
+  - ']'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - ESCAPE
   - TAB
-  - {t: ▽, type: trans}
+  - ENTER
   - LEFT GUI
   - {t: ▽, type: trans}
   - (
@@ -103,26 +103,26 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - '['
-  - _
-  - ']'
-  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PAGE UP
+  - '{'
+  - SPACE
+  - '}'
+  - PAGE DOWN
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
   - {type: held}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
+  - _
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  num_f:
+  num_f_sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,67 +240,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  colemak-dg:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Q
-  - W
-  - F
-  - P
-  - D
-  - J
-  - L
-  - U
-  - Y
-  - '-'
-  - \
-  - {t: ▽, type: trans}
-  - A
-  - R
-  - S
-  - T
-  - G
-  - H
-  - N
-  - E
-  - I
-  - O
-  - ENTER
-  - {t: ▽, type: trans}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - PLAY PAUSE
-  - MUTE
-  - K
-  - M
-  - ','
-  - .
-  - ''''
-  - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: LEFT GUI}
-  - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
