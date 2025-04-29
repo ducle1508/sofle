@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - ;
+  - ENTER
   - {t: F12, h: LEFT ALT}
   - Z
   - X
@@ -53,12 +53,12 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '''', h: CAPSLOCK}
+  - {t: '"', h: CAPSLOCK}
   - {t: _, h: nav_sym_media}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: ENTER, h: num_f_sym}
-  - {t: '"', h: LEFT CONTROL}
+  - {t: ;, h: num_f_sym}
+  - {t: '''', h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav_sym_media:
@@ -114,12 +114,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
+  - '"'
   - {type: held}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - _
-  - '"'
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f_sym:
