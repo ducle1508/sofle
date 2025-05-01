@@ -25,7 +25,7 @@ layers:
   - Y
   - '-'
   - \
-  - BACKSPACE
+  - TAB
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ENTER
-  - {t: F12, h: LEFT ALT}
+  - {t: F12, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - '='
-  - /
+  - {t: /, h: num_f_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '"', h: CAPSLOCK}
@@ -75,9 +75,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - PLAY PAUSE
-  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,7 +99,7 @@ layers:
   - )
   - END
   - LEFT ALT
-  - LEFT SHIFT
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,14 +172,14 @@ layers:
   - ','
   - .
   - F10
-  - F11
+  - {t: F11, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,11 +197,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - VOLUME DOWN
+  - PLAY PAUSE
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,11 +221,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
