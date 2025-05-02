@@ -64,7 +64,7 @@
 
             bindings = <
 &trans              &kp N1  &kp N2  &kp N3  &kp N4                      &kp N5                                                            &kp N6           &kp N7                         &kp N8     &kp N9   &kp N0     &trans
-&lt_400 3 GRAVE     &kp Q   &kp W   &kp F   &kp P                       &kp D                                                             &kp J            &kp L                          &kp U      &kp Y    &kp MINUS  &kp BACKSLASH
+&lt_400 3 ESCAPE    &kp Q   &kp W   &kp F   &kp P                       &kp D                                                             &kp J            &kp L                          &kp U      &kp Y    &kp MINUS  &kp BACKSLASH
 &kp TAB             &kp A   &kp R   &kp S   &kp T                       &kp G                                                             &kp H            &kp N                          &kp E      &kp I    &kp O      &kp ENTER
 &mt LEFT_SHIFT F12  &kp Z   &kp X   &kp C   &kp V                       &kp B             &kp C_PLAY_PAUSE      &kp C_MUTE                &kp K            &kp M                          &kp COMMA  &kp DOT  &kp EQUAL  &lt 1 SLASH
                             &trans  &trans  &mt CAPSLOCK DOUBLE_QUOTES  &lt 1 UNDERSCORE  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 2 SEMICOLON  &mt LEFT_CONTROL SINGLE_QUOTE  &trans     &trans
@@ -78,7 +78,7 @@
         nav_sym {
             bindings = <
 &trans        &trans         &trans   &trans     &trans             &trans                                                  &trans                &trans            &trans     &trans             &trans                 &trans
-&trans        &trans         &trans   &trans     &trans             &trans                                                  &trans                &kp LEFT_BRACKET  &kp UP     &kp RIGHT_BRACKET  &trans                 &trans
+&kp GRAVE     &trans         &trans   &trans     &trans             &trans                                                  &trans                &kp LEFT_BRACKET  &kp UP     &kp RIGHT_BRACKET  &trans                 &trans
 &kp HOME      &kp ESCAPE     &kp TAB  &kp ENTER  &kp LEFT_GUI       &trans                                                  &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp END
 &kp LEFT_ALT  &kp BACKSPACE  &trans   &trans     &trans             &trans  &trans                &trans                    &kp PAGE_UP           &kp LEFT_BRACE    &kp SPACE  &kp RIGHT_BRACE    &kp PAGE_DOWN          &trans
                              &trans   &trans     &kp DOUBLE_QUOTES  &trans  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &kp UNDERSCORE        &kp SINGLE_QUOTE  &trans     &trans
