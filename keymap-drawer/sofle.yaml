@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: '`', h: bluetooth_media}
+  - {t: ESCAPE, h: bluetooth_media}
   - Q
   - W
   - F
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
