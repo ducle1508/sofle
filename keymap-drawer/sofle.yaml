@@ -49,8 +49,8 @@ layers:
   - M
   - ','
   - .
-  - '='
-  - {t: /, h: nav_sym}
+  - {t: '=', h: nav_sym}
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '"', h: CAPSLOCK}
@@ -74,20 +74,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - UP
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
   - ESCAPE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - UP
+  - '}'
+  - {t: ▽, type: trans}
+  - '`'
+  - HOME
+  - LEFT ALT
   - TAB
   - ENTER
   - LEFT GUI
@@ -98,7 +98,7 @@ layers:
   - RIGHT
   - )
   - END
-  - LEFT ALT
+  - LEFT SHIFT
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -107,18 +107,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE UP
-  - '{'
-  - SPACE
-  - '}'
-  - PAGE DOWN
-  - {type: held}
+  - '['
+  - _
+  - ']'
+  - {t: PAGE DOWN, type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '"'
   - {t: ▽, type: trans}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - _
+  - SPACE
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
