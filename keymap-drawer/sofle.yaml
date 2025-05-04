@@ -53,11 +53,11 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '"', h: CAPSLOCK}
-  - {t: _, h: nav_sym}
+  - {t: ;, h: CAPSLOCK}
+  - {t: '"', h: nav_sym}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: ;, h: num_f_sym}
+  - {t: _, h: num_f_sym}
   - {t: '''', h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
