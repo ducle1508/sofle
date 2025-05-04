@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ESCAPE, h: bluetooth_media}
+  - {t: BACKSPACE, h: bluetooth_media}
   - Q
   - W
   - F
@@ -54,8 +54,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ;, h: CAPSLOCK}
-  - {t: '"', h: nav_sym}
-  - {t: SPACE, h: LEFT GUI}
+  - {t: '"', h: LEFT GUI}
+  - {t: SPACE, h: nav_sym}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: _, h: num_f_sym}
   - {t: '''', h: LEFT CONTROL}
@@ -74,22 +74,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESCAPE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '{'
-  - UP
-  - '}'
-  - {t: ▽, type: trans}
   - '`'
-  - HOME
+  - {t: ▽, type: trans}
+  - W
+  - F
   - LEFT ALT
+  - D
+  - {t: ▽, type: trans}
+  - HOME
+  - UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - TAB
-  - ENTER
+  - A
+  - ESCAPE
+  - S
   - LEFT GUI
   - {t: ▽, type: trans}
   - (
@@ -97,12 +97,12 @@ layers:
   - DOWN
   - RIGHT
   - )
-  - END
+  - ENTER
   - LEFT SHIFT
-  - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,12 +114,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
   - {t: ▽, type: trans}
-  - {t: SPACE, h: LEFT GUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - SPACE
-  - ''''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f_sym:
