@@ -58,7 +58,7 @@ layers:
   - {t: SPACE, h: nav_sym}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: _, h: num_f_sym}
-  - {t: '=', h: LEFT ALT}
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav_sym:
@@ -91,7 +91,7 @@ layers:
   - R
   - S
   - LEFT GUI
-  - G
+  - T
   - (
   - LEFT
   - DOWN
@@ -102,13 +102,13 @@ layers:
   - Z
   - X
   - C
-  - V
+  - LEFT ALT
   - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE UP
   - '['
-  - _
+  - ENTER
   - ']'
   - {t: PAGE DOWN, type: held}
   - {t: ▽, type: trans}
