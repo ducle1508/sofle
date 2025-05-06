@@ -49,16 +49,16 @@ layers:
   - M
   - ','
   - .
-  - {t: '=', h: nav_sym}
+  - {t: '''', h: nav_sym}
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ;, h: CAPSLOCK}
+  - {t: ;, h: LEFT CONTROL}
   - {t: '"', h: LEFT GUI}
   - {t: SPACE, h: nav_sym}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: _, h: num_f_sym}
-  - {t: '''', h: LEFT CONTROL}
+  - {t: '=', h: LEFT ALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav_sym:
@@ -75,10 +75,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - {t: ▽, type: trans}
+  - ESCAPE
   - W
   - F
-  - LEFT ALT
+  - CAPSLOCK
   - D
   - {t: ▽, type: trans}
   - HOME
@@ -88,10 +88,10 @@ layers:
   - {t: ▽, type: trans}
   - TAB
   - A
-  - ESCAPE
+  - R
   - S
   - LEFT GUI
-  - {t: ▽, type: trans}
+  - G
   - (
   - LEFT
   - DOWN
@@ -103,7 +103,7 @@ layers:
   - X
   - C
   - V
-  - {t: ▽, type: trans}
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE UP
@@ -114,12 +114,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - SPACE
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f_sym:
