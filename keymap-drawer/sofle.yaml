@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: BACKSPACE, h: bluetooth_media}
+  - {t: F12, h: bluetooth_media}
   - Q
   - W
   - F
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ENTER
-  - {t: F12, h: LEFT SHIFT}
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -103,14 +103,14 @@ layers:
   - X
   - C
   - LEFT ALT
-  - B
+  - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
+  - K
   - '['
   - ENTER
   - ']'
-  - {t: PAGE DOWN, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - SPACE
-  - LEFT ALT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f_sym:
@@ -135,52 +135,52 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - F8
-  - F9
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - F12
   - F1
   - F2
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F6
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F7
-  - ','
-  - .
+  - F8
+  - F9
   - F10
   - F11
+  - F12
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
-  - {t: SPACE, h: LEFT GUI}
+  - LEFT ALT
+  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: LEFT GUI}
+  - SPACE
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {type: held}
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bluetooth_media:
