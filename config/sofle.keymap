@@ -65,7 +65,7 @@
             bindings = <
 &trans                    &kp N1  &kp N2  &kp N3  &kp N4                      &kp N5                                                                    &kp N6            &kp N7     &kp N8     &kp N9   &kp N0              &trans
 &lt_400 3 F12             &kp Q   &kp W   &kp F   &kp P                       &kp D                                                                     &kp J             &kp L      &kp U      &kp Y    &kp MINUS           &kp BACKSLASH
-&kp TAB                   &kp A   &kp R   &kp S   &kp T                       &kp G                                                                     &kp H             &kp N      &kp E      &kp I    &kp O               &kp ENTER
+&mt LEFT_ALT TAB          &kp A   &kp R   &kp S   &kp T                       &kp G                                                                     &kp H             &kp N      &kp E      &kp I    &kp O               &kp ENTER
 &mt LEFT_SHIFT BACKSPACE  &kp Z   &kp X   &kp C   &kp V                       &kp B                       &kp C_PLAY_PAUSE    &kp C_MUTE                &kp K             &kp M      &kp COMMA  &kp DOT  &lt 1 SINGLE_QUOTE  &kp SLASH
                                   &trans  &trans  &mt LEFT_CONTROL SEMICOLON  &mt LEFT_GUI DOUBLE_QUOTES  &lt 1 SPACE         &mt LEFT_SHIFT BACKSPACE  &lt 2 UNDERSCORE  &kp EQUAL  &trans     &trans
             >;
@@ -77,21 +77,21 @@
 
         nav_sym {
             bindings = <
-&trans          &trans      &trans  &trans  &trans            &trans                                      &trans                &trans            &trans     &trans             &trans                 &trans
-&kp GRAVE       &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK      &kp D                                       &trans                &kp HOME          &kp UP     &kp END            &trans                 &trans
-&kp TAB         &kp A       &kp R   &kp S   &kp LEFT_GUI      &kp T                                       &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp LEFT_SHIFT  &kp Z       &kp X   &kp C   &kp LEFT_ALT      &kp V   &trans    &trans                    &kp K                 &kp LEFT_BRACKET  &kp ENTER  &kp RIGHT_BRACKET  &trans                 &trans
-                            &trans  &trans  &kp LEFT_CONTROL  &trans  &trans    &mt LEFT_SHIFT BACKSPACE  &kp SPACE             &trans            &trans     &trans
+&trans            &trans      &trans  &trans  &trans            &trans                                      &trans                &trans            &trans     &trans             &trans                 &trans
+&kp GRAVE         &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK      &kp D                                       &trans                &kp HOME          &kp UP     &kp END            &trans                 &trans
+&mt LEFT_ALT TAB  &kp A       &kp R   &kp S   &kp LEFT_GUI      &kp T                                       &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp LEFT_SHIFT    &kp Z       &kp X   &kp C   &kp TAB           &kp V   &trans    &trans                    &kp K                 &kp LEFT_BRACKET  &kp ENTER  &kp RIGHT_BRACKET  &trans                 &trans
+                              &trans  &trans  &kp LEFT_CONTROL  &trans  &trans    &mt LEFT_SHIFT BACKSPACE  &kp SPACE             &trans            &trans     &trans
             >;
         };
 
         num_f_sym {
             bindings = <
-&trans     &trans  &trans  &trans   &trans        &trans                                                         &trans     &trans        &trans        &trans        &trans      &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5        &kp F6                                                         &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans      &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11       &kp F12                                                        &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans
-&kp LSHFT  &trans  &trans  &trans   &kp LEFT_ALT  &kp LEFT_CONTROL        &trans       &trans                    &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
-                   &trans  &trans   &trans        &mt LEFT_GUI BACKSPACE  &kp SPACE    &mt LEFT_SHIFT BACKSPACE  &trans     &kp NUMBER_0  &trans        &trans
+&trans           &trans  &trans  &trans   &trans            &trans                                                   &trans     &trans        &trans        &trans        &trans      &trans
+&kp F1           &kp F2  &kp F3  &kp F4   &kp F5            &kp F6                                                   &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans      &trans
+&mt LEFT_ALT F7  &kp F8  &kp F9  &kp F10  &kp F11           &kp F12                                                  &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans
+&kp LSHFT        &trans  &trans  &trans   &trans            &trans        &trans           &trans                    &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
+                         &trans  &trans   &kp LEFT_CONTROL  &kp LEFT_GUI  &kp BACKSPACE    &mt LEFT_SHIFT BACKSPACE  &trans     &kp NUMBER_0  &trans        &trans
             >;
         };
 
