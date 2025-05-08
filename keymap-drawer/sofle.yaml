@@ -25,7 +25,7 @@ layers:
   - Y
   - '-'
   - \
-  - TAB
+  - {t: TAB, h: LEFT ALT}
   - A
   - R
   - S
@@ -86,7 +86,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - {t: TAB, h: LEFT ALT}
   - A
   - R
   - S
@@ -102,7 +102,7 @@ layers:
   - Z
   - X
   - C
-  - LEFT ALT
+  - TAB
   - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,7 +147,7 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F7
+  - {t: F7, h: LEFT ALT}
   - F8
   - F9
   - F10
@@ -163,8 +163,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ','
@@ -175,9 +175,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BACKSPACE, h: LEFT GUI}
-  - SPACE
+  - LEFT CONTROL
+  - LEFT GUI
+  - BACKSPACE
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {type: held}
   - '0'
