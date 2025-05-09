@@ -179,8 +179,8 @@ layers:
   - LEFT GUI
   - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: LEFT ALT, type: held}
-  - '0'
+  - {t: '0', type: held}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bluetooth_media:
