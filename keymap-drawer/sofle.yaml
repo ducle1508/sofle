@@ -25,7 +25,7 @@ layers:
   - Y
   - '-'
   - \
-  - {t: TAB, h: LEFT ALT}
+  - TAB
   - A
   - R
   - S
@@ -58,7 +58,7 @@ layers:
   - {t: SPACE, h: nav_sym}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: _, h: num_f_sym}
-  - '='
+  - {t: '=', h: LEFT ALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav_sym:
@@ -86,7 +86,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: TAB, h: LEFT ALT}
+  - TAB
   - A
   - R
   - S
@@ -102,7 +102,7 @@ layers:
   - Z
   - X
   - C
-  - TAB
+  - num_f_sym
   - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - SPACE
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_f_sym:
@@ -177,9 +177,9 @@ layers:
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT GUI
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {type: held}
+  - {t: LEFT ALT, type: held}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
