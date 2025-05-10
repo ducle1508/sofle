@@ -81,9 +81,9 @@ layers:
   - CAPSLOCK
   - D
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - UP
-  - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
@@ -108,17 +108,17 @@ layers:
   - {t: ▽, type: trans}
   - K
   - '['
-  - ENTER
+  - SPACE
   - ']'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT CONTROL
-  - {t: ▽, type: trans}
+  - HOME
   - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - SPACE
+  - END
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,7 +147,7 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: F7, h: LEFT ALT}
+  - F7
   - F8
   - F9
   - F10
