@@ -81,9 +81,9 @@ layers:
   - CAPSLOCK
   - D
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ENTER
   - UP
-  - {t: ▽, type: trans}
+  - Ctl+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
@@ -160,8 +160,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
