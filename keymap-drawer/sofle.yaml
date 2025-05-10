@@ -49,15 +49,15 @@ layers:
   - M
   - ','
   - .
-  - {t: '''', h: nav_sym}
+  - ''''
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ;, h: LEFT CONTROL}
-  - {t: '"', h: LEFT GUI}
+  - {t: HOME, h: LEFT GUI}
   - {t: SPACE, h: nav_sym}
-  - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: _, h: num_f_sym}
+  - {t: BACKSPACE, h: nav_sym}
+  - {t: END, h: LEFT SHIFT}
   - {t: '=', h: LEFT ALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,15 +110,15 @@ layers:
   - '['
   - SPACE
   - ']'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT CONTROL
-  - HOME
-  - {t: ▽, type: trans}
-  - {t: BACKSPACE, h: LEFT SHIFT}
-  - END
+  - {t: HOME, h: LEFT GUI}
+  - {t: SPACE, type: held}
+  - BACKSPACE
+  - {t: END, h: LEFT SHIFT}
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -163,7 +163,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,9 +177,9 @@ layers:
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT GUI
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: '0', type: held}
+  - '0'
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
