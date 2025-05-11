@@ -14,12 +14,12 @@
 #define ADJUST 3
 
 &mt {
-    tapping-term-ms = <250>;
+    tapping-term-ms = <225>;
     flavor = "tap-preferred";
 };
 
 &lt {
-    tapping-term-ms = <250>;
+    tapping-term-ms = <225>;
     flavor = "tap-preferred";
 };
 
@@ -77,21 +77,21 @@
 
         nav_sym {
             bindings = <
-&trans          &trans      &trans  &trans  &trans            &trans                                         &trans                &trans            &trans     &trans             &trans                 &trans
-&kp GRAVE       &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK      &kp D                                          &trans                &kp LS(ENTER)     &kp UP     &kp LC(ENTER)      &trans                 &trans
-&kp TAB         &kp A       &kp R   &kp S   &kp LEFT_GUI      &kp T                                          &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp LEFT_SHIFT  &kp Z       &kp X   &kp C   &mo 2             &kp V              &trans       &trans         &kp K                 &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &trans                 &trans
-                            &trans  &trans  &kp LEFT_CONTROL  &mt LEFT_GUI HOME  &kp SPACE    &kp BACKSPACE  &mt LEFT_SHIFT END    &kp LEFT_ALT      &trans     &trans
+&trans          &trans      &trans  &trans  &trans            &trans                                         &trans                &trans             &trans     &trans             &trans                 &trans
+&kp GRAVE       &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK      &kp D                                          &trans                &kp DOUBLE_QUOTES  &kp UP     &kp UNDERSCORE     &trans                 &trans
+&kp TAB         &kp A       &kp R   &kp S   &kp LEFT_GUI      &kp T                                          &kp LEFT_PARENTHESIS  &kp LEFT           &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp LEFT_SHIFT  &kp Z       &kp X   &kp C   &mo 2             &kp V              &trans       &trans         &kp K                 &kp LEFT_BRACKET   &kp SPACE  &kp RIGHT_BRACKET  &trans                 &trans
+                            &trans  &trans  &kp LEFT_CONTROL  &mt LEFT_GUI HOME  &kp SPACE    &kp BACKSPACE  &mt LEFT_SHIFT END    &kp LEFT_ALT       &trans     &trans
             >;
         };
 
         num_f_sym {
             bindings = <
-&trans     &trans           &trans       &trans   &trans            &trans                                            &trans        &trans        &trans        &trans        &trans      &trans
-&kp F1     &kp F2           &kp F3       &kp F4   &kp F5            &kp F6                                            &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans      &trans
-&kp F7     &kp F8           &kp F9       &kp F10  &kp F11           &kp F12                                           &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans
-&kp LSHFT  &kp LS(LC(TAB))  &kp LC(TAB)  &trans   &trans            &trans        &trans    &trans                    &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
-                            &trans       &trans   &kp LEFT_CONTROL  &kp LEFT_GUI  &trans    &mt LEFT_SHIFT BACKSPACE  &kp NUMBER_0  &kp LEFT_ALT  &trans        &trans
+&trans     &trans  &trans  &trans   &trans            &trans                                            &trans           &trans        &trans        &trans        &trans         &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5            &kp F6                                            &kp LS(ENTER)    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LC(ENTER)  &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11           &kp F12                                           &kp LC(LS(TAB))  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(TAB)    &trans
+&kp LSHFT  &trans  &trans  &trans   &trans            &trans        &trans    &trans                    &kp COMMA        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &trans
+                   &trans  &trans   &kp LEFT_CONTROL  &kp LEFT_GUI  &trans    &mt LEFT_SHIFT BACKSPACE  &kp NUMBER_0     &kp LEFT_ALT  &trans        &trans
             >;
         };
 
