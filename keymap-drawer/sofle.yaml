@@ -81,9 +81,9 @@ layers:
   - CAPSLOCK
   - D
   - {t: ▽, type: trans}
-  - Sft+ENTER
+  - '"'
   - UP
-  - Ctl+ENTER
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
@@ -141,11 +141,11 @@ layers:
   - F4
   - F5
   - F6
-  - {t: ▽, type: trans}
+  - Sft+ENTER
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - Ctl+ENTER
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -153,15 +153,15 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - LSHFT
-  - Sft+Ctl+TAB
-  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
