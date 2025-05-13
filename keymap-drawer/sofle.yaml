@@ -80,7 +80,7 @@ layers:
   - F
   - CAPSLOCK
   - D
-  - {t: ▽, type: trans}
+  - L
   - '"'
   - UP
   - _
@@ -110,7 +110,7 @@ layers:
   - '['
   - SPACE
   - ']'
-  - {t: ▽, type: trans}
+  - LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
