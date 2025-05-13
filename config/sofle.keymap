@@ -78,9 +78,9 @@
         nav_sym {
             bindings = <
 &trans          &trans      &trans  &trans  &trans            &trans                                         &trans                &trans             &trans     &trans             &trans                 &trans
-&kp GRAVE       &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK      &kp D                                          &trans                &kp DOUBLE_QUOTES  &kp UP     &kp UNDERSCORE     &trans                 &trans
+&kp GRAVE       &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK      &kp D                                          &kp L                 &kp DOUBLE_QUOTES  &kp UP     &kp UNDERSCORE     &trans                 &trans
 &kp TAB         &kp A       &kp R   &kp S   &kp LEFT_GUI      &kp T                                          &kp LEFT_PARENTHESIS  &kp LEFT           &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp LEFT_SHIFT  &kp Z       &kp X   &kp C   &mo 2             &kp V              &trans       &trans         &kp K                 &kp LEFT_BRACKET   &kp SPACE  &kp RIGHT_BRACKET  &trans                 &trans
+&kp LEFT_SHIFT  &kp Z       &kp X   &kp C   &mo 2             &kp V              &trans       &trans         &kp K                 &kp LEFT_BRACKET   &kp SPACE  &kp RIGHT_BRACKET  &kp LEFT_GUI           &trans
                             &trans  &trans  &kp LEFT_CONTROL  &mt LEFT_GUI HOME  &kp SPACE    &kp BACKSPACE  &mt LEFT_SHIFT END    &kp LEFT_ALT       &trans     &trans
             >;
         };
