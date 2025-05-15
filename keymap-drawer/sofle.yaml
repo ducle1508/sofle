@@ -245,8 +245,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   gaming:
+  - ESCAPE
   - ''
-  - ESC
   - '1'
   - '2'
   - '3'
@@ -257,11 +257,11 @@ layers:
   - ''
   - ''
   - {t: gaming, h: toggle}
-  - ''
   - TAB
   - ''
+  - Q
   - W
-  - ''
+  - P
   - R
   - ''
   - ''
