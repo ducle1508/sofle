@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - {t: ▽, type: trans}
+  - ''
   - '1'
   - '2'
   - '3'
@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - ''
   - {t: F12, h: bluetooth_media}
   - Q
   - W
@@ -23,8 +23,8 @@ layers:
   - L
   - U
   - Y
-  - '-'
-  - \
+  - {t: '-', h: LEFT CONTROL}
+  - {t: '=', h: LEFT ALT}
   - TAB
   - A
   - R
@@ -49,43 +49,43 @@ layers:
   - M
   - ','
   - .
-  - ''''
-  - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ;, h: LEFT CONTROL}
-  - {t: HOME, h: LEFT GUI}
+  - {t: '''', h: LEFT GUI}
+  - {t: /, h: LEFT SHIFT}
+  - ''
+  - ''
+  - ''
+  - {t: HOME, h: num_fn}
   - {t: SPACE, h: nav_sym}
   - {t: BACKSPACE, h: nav_sym}
-  - {t: END, h: LEFT SHIFT}
-  - {t: '=', h: LEFT ALT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: END, h: charnum}
+  - ''
+  - ''
+  - ''
   nav_sym:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '`'
   - ESCAPE
   - W
   - F
   - CAPSLOCK
   - D
+  - ;
   - L
-  - '"'
   - UP
-  - _
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
+  - LEFT CONTROL
+  - {t: \, h: LEFT ALT}
   - TAB
   - A
   - R
@@ -99,169 +99,230 @@ layers:
   - )
   - ENTER
   - LEFT SHIFT
-  - Z
-  - X
-  - C
-  - num_f_sym
-  - V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - ''
+  - ''
   - K
   - '['
   - SPACE
   - ']'
   - LEFT GUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - {t: HOME, h: LEFT GUI}
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - HOME
   - {t: SPACE, type: held}
   - BACKSPACE
-  - {t: END, h: LEFT SHIFT}
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  num_f_sym:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: gaming, h: toggle}
+  - END
+  - ''
+  - ''
+  - ''
+  num_fn:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - F1
   - F2
   - F3
   - F4
   - F5
   - F6
-  - Sft+ENTER
+  - +
   - '7'
   - '8'
   - '9'
-  - Ctl+ENTER
-  - {t: ▽, type: trans}
+  - {t: '-', h: LEFT CONTROL}
+  - LEFT ALT
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
-  - Ctl+Sft+TAB
+  - '*'
   - '4'
   - '5'
   - '6'
-  - Ctl+TAB
-  - {t: ▽, type: trans}
-  - LSHFT
-  - PAGE UP
-  - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - '='
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ','
   - '1'
   - '2'
   - '3'
-  - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - LEFT GUI
+  - {t: ., h: LEFT GUI}
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: BACKSPACE, h: LEFT SHIFT}
+  - ''
+  - BACKSPACE
   - '0'
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  charnum:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+ENTER
+  - '&'
+  - '*'
+  - _
+  - Ctl+ENTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+Sft+TAB
+  - $
+  - '%'
+  - ^
+  - Ctl+TAB
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - '!'
+  - '@'
+  - '#'
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BACKSPACE
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
   bluetooth_media:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - VOLUME DOWN
   - PLAY PAUSE
   - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  gaming:
-  - ESCAPE
   - ''
-  - '1'
-  - '2'
-  - '3'
-  - '4'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - ''
   - {t: gaming, h: toggle}
-  - TAB
+  gaming:
   - ''
-  - Q
+  - ESCAPE
+  - ''
+  - '2'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - TAB
+  - '1'
   - W
-  - P
+  - '3'
   - R
   - ''
   - ''
@@ -300,8 +361,8 @@ layers:
   - ''
   - ''
   - SPACE
+  - Y
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {t: gaming, h: toggle}
