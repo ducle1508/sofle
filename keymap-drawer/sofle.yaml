@@ -23,8 +23,8 @@ layers:
   - L
   - U
   - Y
-  - {t: '-', h: LEFT CONTROL}
-  - {t: '=', h: LEFT ALT}
+  - {t: '=', h: LEFT CONTROL}
+  - {t: '-', h: LEFT ALT}
   - TAB
   - A
   - R
@@ -110,8 +110,8 @@ layers:
   - '['
   - SPACE
   - ']'
-  - LEFT GUI
-  - LEFT SHIFT
+  - {t: '''', h: LEFT GUI}
+  - {t: /, h: LEFT SHIFT}
   - ''
   - ''
   - ''
