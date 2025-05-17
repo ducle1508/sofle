@@ -78,8 +78,8 @@
         nav_sym {
             bindings = <
 &none           &none       &none      &none      &none         &none                                  &none                 &none             &none      &none              &none                  &none
-&kp GRAVE       &kp ESCAPE  &kp W      &kp F      &kp CAPSLOCK  &kp D                                  &kp SEMICOLON         &kp L             &kp UP     &kp DOUBLE_QUOTES  &kp LEFT_CONTROL       &mt LEFT_ALT BACKSLASH
-&kp TAB         &kp A       &kp R      &kp S      &kp LEFT_GUI  &kp T                                  &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp GRAVE       &kp ESCAPE  &kp W      &kp F      &kp CAPSLOCK  &kp LG(D)                              &kp SEMICOLON         &kp L             &kp UP     &kp DOUBLE_QUOTES  &kp LEFT_CONTROL       &mt LEFT_ALT BACKSLASH
+&kp TAB         &kp A       &kp R      &kp S      &kp LEFT_GUI  &kp LG(T)                              &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
 &kp LEFT_SHIFT  &kp LG(Z)   &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LG(B)  &none        &none          &kp K                 &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &kp LEFT_GUI           &kp LEFT_SHIFT
                             &none      &none      &none         &kp HOME   &kp SPACE    &kp BACKSPACE  &kp END               &none             &none      &none
             >;
@@ -117,11 +117,11 @@
 
         gaming {
             bindings = <
-&none  &kp ESCAPE  &none         &kp N2  &none         &none                      &none  &none  &none  &none   &none  &none
-&none  &kp TAB     &kp NUMBER_1  &kp W   &kp NUMBER_3  &kp R                      &none  &none  &none  &none   &none  &none
-&none  &kp LSHFT   &kp A         &kp S   &kp D         &kp F                      &none  &none  &none  &kp Z   &kp E  &kp ENTER
-&none  &none       &none         &none   &kp C         &none  &none        &none  &none  &none  &none  &none   &none  &none
-                   &none         &none   &none         &none  &kp SPACE    &kp Y  &none  &none  &none  &tog 5
+&kp ESCAPE  &none      &none         &kp N2  &none         &none                      &none  &none  &none  &none   &none  &none
+&none       &kp TAB    &kp NUMBER_1  &kp W   &kp NUMBER_3  &kp R                      &none  &none  &none  &none   &none  &none
+&none       &kp LSHFT  &kp A         &kp S   &kp D         &kp F                      &none  &none  &none  &kp Z   &kp E  &kp ENTER
+&none       &none      &none         &none   &kp C         &none  &none        &none  &none  &none  &none  &none   &none  &none
+                       &none         &none   &none         &none  &kp SPACE    &kp Y  &none  &none  &none  &tog 5
             >;
         };
     };
