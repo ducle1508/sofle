@@ -79,7 +79,7 @@ layers:
   - W
   - F
   - CAPSLOCK
-  - D
+  - Gui+D
   - ;
   - L
   - UP
@@ -91,7 +91,7 @@ layers:
   - R
   - S
   - LEFT GUI
-  - T
+  - Gui+T
   - (
   - LEFT
   - DOWN
@@ -306,8 +306,8 @@ layers:
   - ''
   - {t: gaming, h: toggle}
   gaming:
-  - ''
   - ESCAPE
+  - ''
   - ''
   - '2'
   - ''
