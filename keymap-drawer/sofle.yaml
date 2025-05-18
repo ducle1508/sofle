@@ -23,8 +23,8 @@ layers:
   - L
   - U
   - Y
-  - {t: '=', h: LEFT CONTROL}
-  - {t: '-', h: LEFT ALT}
+  - {t: '=', h: LEFT ALT}
+  - {t: \, h: LEFT CONTROL}
   - TAB
   - A
   - R
@@ -55,13 +55,13 @@ layers:
   - ''
   - ''
   - {t: HOME, h: num_fn_media}
-  - {t: SPACE, h: nav_sym}
-  - {t: BACKSPACE, h: nav_sym}
-  - {t: END, h: charnum}
+  - {t: SPACE, h: nav}
+  - {t: BACKSPACE, h: nav}
+  - {t: END, h: chars}
   - ''
   - ''
   - ''
-  nav_sym:
+  nav:
   - ''
   - ''
   - ''
@@ -80,23 +80,23 @@ layers:
   - F
   - CAPSLOCK
   - Gui+D
-  - ;
   - L
+  - Ctl+Sft+TAB
   - UP
-  - '"'
+  - Ctl+TAB
+  - LEFT ALT
   - LEFT CONTROL
-  - {t: \, h: LEFT ALT}
   - TAB
   - A
   - R
   - S
   - LEFT GUI
   - Gui+T
-  - (
+  - Sft+ENTER
   - LEFT
   - DOWN
   - RIGHT
-  - )
+  - Ctl+ENTER
   - ENTER
   - LEFT SHIFT
   - Gui+Z
@@ -107,10 +107,10 @@ layers:
   - ''
   - ''
   - K
-  - '['
+  - PAGE UP
   - SPACE
-  - ']'
-  - ''''
+  - PAGE DOWN
+  - LEFT GUI
   - {t: /, h: LEFT SHIFT}
   - ''
   - ''
@@ -145,8 +145,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: '-', h: LEFT CONTROL}
-  - LEFT ALT
+  - {t: '-', h: LEFT ALT}
+  - LEFT CONTROL
   - F7
   - F8
   - F9
@@ -183,7 +183,7 @@ layers:
   - ''
   - ''
   - ''
-  charnum:
+  chars:
   - ''
   - ''
   - ''
@@ -197,42 +197,42 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Sft+ENTER
-  - '&'
-  - '*'
-  - _
-  - Ctl+ENTER
-  - bt
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Ctl+Sft+TAB
-  - $
-  - '%'
-  - ^
-  - Ctl+TAB
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PAGE UP
   - '!'
   - '@'
   - '#'
-  - PAGE DOWN
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '['
+  - _
+  - ']'
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '{'
+  - ':'
+  - '}'
+  - ;
   - ''
   - ''
   - ''
@@ -241,7 +241,7 @@ layers:
   - BACKSPACE
   - ''
   - {type: held}
-  - ''
+  - bt
   - ''
   - ''
   bt:
@@ -268,7 +268,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -302,7 +302,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
+  - {type: held}
   - ''
   - {t: gaming, h: toggle}
   gaming:
