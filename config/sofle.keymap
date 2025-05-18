@@ -63,10 +63,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&none                     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0                     &none
-&lt_400 4 F12             &kp Q   &kp W   &kp F   &kp P   &kp D                                            &kp J      &kp L   &kp U      &kp Y    &mt LEFT_CONTROL EQUAL     &mt LEFT_ALT MINUS
-&kp TAB                   &kp A   &kp R   &kp S   &kp T   &kp G                                            &kp H      &kp N   &kp E      &kp I    &kp O                      &kp ENTER
-&mt LEFT_SHIFT BACKSPACE  &kp Z   &kp X   &kp C   &kp V   &kp B       &kp C_PLAY_PAUSE    &kp C_MUTE       &kp K      &kp M   &kp COMMA  &kp DOT  &mt LEFT_GUI SINGLE_QUOTE  &mt LEFT_SHIFT SLASH
+&none                     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0                  &none
+&mt LEFT_GUI F12          &kp Q   &kp W   &kp F   &kp P   &kp D                                            &kp J      &kp L   &kp U      &kp Y    &mt LEFT_CONTROL EQUAL  &mt LEFT_ALT MINUS
+&kp TAB                   &kp A   &kp R   &kp S   &kp T   &kp G                                            &kp H      &kp N   &kp E      &kp I    &kp O                   &kp ENTER
+&mt LEFT_SHIFT BACKSPACE  &kp Z   &kp X   &kp C   &kp V   &kp B       &kp C_PLAY_PAUSE    &kp C_MUTE       &kp K      &kp M   &kp COMMA  &kp DOT  &kp SINGLE_QUOTE        &mt LEFT_SHIFT SLASH
                                   &none   &none   &none   &lt 2 HOME  &lt 1 SPACE         &lt 1 BACKSPACE  &lt 3 END  &none   &none      &none
             >;
 
@@ -77,41 +77,41 @@
 
         nav_sym {
             bindings = <
-&none           &none       &none      &none      &none         &none                                  &none                 &none             &none      &none              &none                      &none
-&kp GRAVE       &kp ESCAPE  &kp W      &kp F      &kp CAPSLOCK  &kp LG(D)                              &kp SEMICOLON         &kp L             &kp UP     &kp DOUBLE_QUOTES  &kp LEFT_CONTROL           &mt LEFT_ALT BACKSLASH
-&kp TAB         &kp A       &kp R      &kp S      &kp LEFT_GUI  &kp LG(T)                              &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS      &kp ENTER
-&kp LEFT_SHIFT  &kp LG(Z)   &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LG(B)  &none        &none          &kp K                 &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &mt LEFT_GUI SINGLE_QUOTE  &mt LEFT_SHIFT SLASH
+&none           &none       &none      &none      &none         &none                                  &none                 &none             &none      &none              &none                  &none
+&kp GRAVE       &kp ESCAPE  &kp W      &kp F      &kp CAPSLOCK  &kp LG(D)                              &kp SEMICOLON         &kp L             &kp UP     &kp DOUBLE_QUOTES  &kp LEFT_CONTROL       &mt LEFT_ALT BACKSLASH
+&kp TAB         &kp A       &kp R      &kp S      &kp LEFT_GUI  &kp LG(T)                              &kp LEFT_PARENTHESIS  &kp LEFT          &kp DOWN   &kp RIGHT          &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp LEFT_SHIFT  &kp LG(Z)   &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LG(B)  &none        &none          &kp K                 &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE       &mt LEFT_SHIFT SLASH
                             &none      &none      &none         &kp HOME   &kp SPACE    &kp BACKSPACE  &kp END               &none             &none      &none
             >;
         };
 
-        num_fn {
+        num_fn_media {
             bindings = <
-&none   &none   &none   &none    &none    &none                            &none         &none         &none         &none         &none                   &none
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                           &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt LEFT_CONTROL MINUS  &kp LEFT_ALT
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12                          &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH               &kp EQUAL
-&none   &none   &none   &none    &none    &none    &none    &none          &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt LEFT_GUI PERIOD     &kp LEFT_SHIFT
-                &none   &none    &none    &none    &none    &kp BACKSPACE  &kp NUMBER_0  &none         &none         &none
+&none   &none             &none   &none              &none            &none                            &none         &none         &none         &none         &none                   &none
+&kp F1  &kp F2            &kp F3  &kp F4             &kp F5           &kp F6                           &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt LEFT_CONTROL MINUS  &kp LEFT_ALT
+&kp F7  &kp F8            &kp F9  &kp F10            &kp F11          &kp F12                          &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH               &kp EQUAL
+&none   &kp C_PLAY_PAUSE  &none   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none    &none    &none          &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt LEFT_GUI PERIOD     &kp LEFT_SHIFT
+                          &none   &none              &none            &none    &none    &kp BACKSPACE  &kp NUMBER_0  &none         &none         &none
             >;
         };
 
         charnum {
             bindings = <
 &none  &none  &none  &none  &none  &none                          &none            &none            &none         &none           &none          &none
-&none  &none  &none  &none  &none  &none                          &kp LS(ENTER)    &kp AMPERSAND    &kp ASTERISK  &kp UNDERSCORE  &kp LC(ENTER)  &none
+&none  &none  &none  &none  &none  &none                          &kp LS(ENTER)    &kp AMPERSAND    &kp ASTERISK  &kp UNDERSCORE  &kp LC(ENTER)  &mo 4
 &none  &none  &none  &none  &none  &none                          &kp LC(LS(TAB))  &kp DOLLAR       &kp PERCENT   &kp CARET       &kp LC(TAB)    &none
 &none  &none  &none  &none  &none  &none  &none            &none  &kp PAGE_UP      &kp EXCLAMATION  &kp AT_SIGN   &kp POUND       &kp PAGE_DOWN  &none
               &none  &none  &none  &none  &kp BACKSPACE    &none  &none            &none            &none         &none
             >;
         };
 
-        bluetooth_media {
+        bt {
             bindings = <
-&none       &none              &none             &none            &none         &none                         &none  &none  &none  &none   &none  &none
-&none       &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &none         &none                         &none  &none  &none  &none   &none  &none
-&none       &none              &none             &none            &none         &none                         &none  &none  &none  &none   &none  &none
-&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &none    &none  &none  &none  &none  &none   &none  &none
-                               &none             &none            &none         &none         &none    &none  &none  &none  &none  &tog 5
+&none       &none         &none         &none         &none         &none                         &none  &none  &none  &none   &none  &none
+&none       &none         &none         &none         &none         &none                         &none  &none  &none  &none   &none  &none
+&none       &none         &none         &none         &none         &none                         &none  &none  &none  &none   &none  &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none  &none  &none  &none  &none   &none  &none
+                          &none         &none         &none         &none         &none    &none  &none  &none  &none  &tog 5
             >;
         };
 
