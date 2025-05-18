@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - ''
-  - {t: F12, h: bluetooth_media}
+  - {t: F12, h: LEFT GUI}
   - Q
   - W
   - F
@@ -49,12 +49,12 @@ layers:
   - M
   - ','
   - .
-  - {t: '''', h: LEFT GUI}
+  - ''''
   - {t: /, h: LEFT SHIFT}
   - ''
   - ''
   - ''
-  - {t: HOME, h: num_fn}
+  - {t: HOME, h: num_fn_media}
   - {t: SPACE, h: nav_sym}
   - {t: BACKSPACE, h: nav_sym}
   - {t: END, h: charnum}
@@ -110,7 +110,7 @@ layers:
   - '['
   - SPACE
   - ']'
-  - {t: '''', h: LEFT GUI}
+  - ''''
   - {t: /, h: LEFT SHIFT}
   - ''
   - ''
@@ -122,7 +122,7 @@ layers:
   - ''
   - ''
   - ''
-  num_fn:
+  num_fn_media:
   - ''
   - ''
   - ''
@@ -160,10 +160,10 @@ layers:
   - /
   - '='
   - ''
+  - PLAY PAUSE
   - ''
-  - ''
-  - ''
-  - ''
+  - VOLUME DOWN
+  - VOLUME UP
   - ''
   - ''
   - ''
@@ -207,7 +207,7 @@ layers:
   - '*'
   - _
   - Ctl+ENTER
-  - ''
+  - bt
   - ''
   - ''
   - ''
@@ -244,7 +244,18 @@ layers:
   - ''
   - ''
   - ''
-  bluetooth_media:
+  bt:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -258,17 +269,6 @@ layers:
   - ''
   - ''
   - {type: held}
-  - VOLUME DOWN
-  - PLAY PAUSE
-  - VOLUME UP
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -301,7 +301,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - {t: gaming, h: toggle}
