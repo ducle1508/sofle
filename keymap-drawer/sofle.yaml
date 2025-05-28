@@ -175,12 +175,12 @@ layers:
   - Sft+/
   - ''
   - ''
+  - ''
   - SPACE
-  - Sft+HOME
   - {type: held}
   - ''
-  - Sft+END
   - SPACE
+  - ''
   - ''
   - ''
   num_char_med:
