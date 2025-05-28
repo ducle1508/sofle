@@ -13,8 +13,8 @@ layers:
   - '9'
   - '0'
   - ''
-  - F12
-  - Q
+  - {t: F12, h: LEFT CONTROL}
+  - {t: Q, h: LEFT ALT}
   - W
   - F
   - P
@@ -38,7 +38,7 @@ layers:
   - O
   - ENTER
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - Z
+  - {t: Z, h: LEFT GUI}
   - X
   - C
   - V
@@ -175,12 +175,12 @@ layers:
   - Sft+/
   - ''
   - ''
-  - ''
+  - SPACE
   - Sft+HOME
   - {type: held}
   - ''
   - Sft+END
-  - ''
+  - SPACE
   - ''
   - ''
   num_char_med:
@@ -198,9 +198,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - (
+  - '-'
+  - )
   - ''
   - ''
   - '['
@@ -219,7 +219,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ':'
+  - ENTER
   - {t: BACKSPACE, h: LEFT SHIFT}
   - PLAY PAUSE
   - PREVIOUS
@@ -229,7 +229,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ':'
   - ','
   - .
   - {t: '"', h: LEFT GUI}
@@ -264,9 +264,9 @@ layers:
   - ''
   - ''
   - ''
-  - '{'
-  - '-'
-  - '}'
+  - ''
+  - ''
+  - ''
   - LEFT ALT
   - LEFT CONTROL
   - ''
@@ -278,9 +278,9 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
-  - ;
+  - '{'
+  - '}'
+  - ENTER
   - BACKSPACE
   - ''
   - ''
@@ -290,7 +290,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ;
   - <
   - '>'
   - {t: '"', h: LEFT GUI}
