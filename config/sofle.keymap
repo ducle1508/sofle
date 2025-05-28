@@ -87,11 +87,11 @@
 
         base_upper {
             bindings = <
-&none          &none      &none      &none      &none      &none                         &none        &none      &none          &none        &none                                  &none
-&kp LS(GRAVE)  &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(D)                     &kp LS(J)    &kp LS(L)  &kp LS(U)      &kp LS(Y)    &mt_400 LS(LEFT_ALT) LS(EQUAL)         &mt_400 LS(LEFT_CONTROL) LS(BACKSLASH)
-&kp LS(TAB)    &kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)                     &kp LS(H)    &kp LS(N)  &kp LS(E)      &kp LS(I)    &kp LS(O)                              &kp LS(ENTER)
-&kp BSPC       &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)     &none    &none  &kp LS(K)    &kp LS(M)  &kp LS(COMMA)  &kp LS(DOT)  &mt_400 LS(LEFT_GUI) LS(SINGLE_QUOTE)  &kp LS(FSLH)
-                          &none      &none      &kp SPACE  &kp LS(HOME)  &none    &none  &kp LS(END)  &kp SPACE  &none          &none
+&none          &none      &none      &none      &none      &none                      &none      &none      &none          &none        &none                                  &none
+&kp LS(GRAVE)  &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(D)                  &kp LS(J)  &kp LS(L)  &kp LS(U)      &kp LS(Y)    &mt_400 LS(LEFT_ALT) LS(EQUAL)         &mt_400 LS(LEFT_CONTROL) LS(BACKSLASH)
+&kp LS(TAB)    &kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)                  &kp LS(H)  &kp LS(N)  &kp LS(E)      &kp LS(I)    &kp LS(O)                              &kp LS(ENTER)
+&kp BSPC       &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &none    &none  &kp LS(K)  &kp LS(M)  &kp LS(COMMA)  &kp LS(DOT)  &mt_400 LS(LEFT_GUI) LS(SINGLE_QUOTE)  &kp LS(FSLH)
+                          &none      &none      &none      &kp SPACE  &none    &none  &kp SPACE  &none      &none          &none
             >;
         };
 
