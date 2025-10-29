@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - ''
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -12,68 +12,68 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
-  - {t: F12, h: LEFT CONTROL}
-  - {t: Q, h: LEFT ALT}
-  - W
-  - F
-  - P
-  - D
-  - J
-  - L
-  - U
-  - Y
-  - {t: '=', h: LEFT ALT}
-  - {t: \, h: LEFT CONTROL}
+  - '-'
   - TAB
-  - A
-  - R
-  - S
-  - T
-  - G
-  - H
-  - N
+  - Q
+  - W
   - E
+  - R
+  - T
+  - Y
+  - U
   - I
   - O
+  - P
+  - '['
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
   - ENTER
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: Z, h: LEFT GUI}
+  - Z
   - X
   - C
   - V
   - B
   - PLAY PAUSE
   - MUTE
-  - K
+  - N
   - M
+  - UP
   - ','
   - .
-  - {t: '''', h: LEFT GUI}
-  - {t: /, h: LEFT SHIFT}
+  - /
   - ''
   - ''
   - ''
-  - {t: HOME, h: num_char_med}
-  - {t: SPACE, h: nav}
-  - {t: BACKSPACE, h: nav}
-  - {t: END, h: num_char_med}
-  - ''
-  - ''
-  - ''
+  - {t: HOME, h: LEFT CONTROL}
+  - {t: SPACE, h: LEFT GUI}
+  - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: END, h: LEFT ALT}
+  - LEFT
+  - DOWN
+  - RIGHT
   nav:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
   - '`'
   - ESCAPE
   - W
@@ -111,213 +111,30 @@ layers:
   - SPACE
   - PAGE DOWN
   - LEFT GUI
-  - {t: /, h: LEFT SHIFT}
+  - \
   - ''
   - ''
   - ''
   - HOME
-  - {t: SPACE, h: base_upper, type: held}
-  - {t: BACKSPACE, h: base_upper}
+  - {t: SPACE, h: default}
+  - {t: BACKSPACE, h: default}
   - END
   - ''
   - ''
   - ''
-  base_upper:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Sft+`
-  - Sft+Q
-  - Sft+W
-  - Sft+F
-  - Sft+P
-  - Sft+D
-  - Sft+J
-  - Sft+L
-  - Sft+U
-  - Sft+Y
-  - {t: Sft+=, h: Sft+LEFT ALT}
-  - {t: Sft+\, h: Sft+LEFT CONTROL}
-  - Sft+TAB
-  - Sft+A
-  - Sft+R
-  - Sft+S
-  - Sft+T
-  - Sft+G
-  - Sft+H
-  - Sft+N
-  - Sft+E
-  - Sft+I
-  - Sft+O
-  - Sft+ENTER
-  - BSPC
-  - Sft+Z
-  - Sft+X
-  - Sft+C
-  - Sft+V
-  - Sft+B
-  - ''
-  - ''
-  - Sft+K
-  - Sft+M
-  - Sft+,
-  - Sft+.
-  - {t: Sft+', h: Sft+LEFT GUI}
-  - Sft+/
-  - ''
-  - ''
-  - ''
-  - SPACE
-  - {type: held}
-  - ''
-  - SPACE
-  - ''
-  - ''
-  - ''
-  num_char_med:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - (
-  - '-'
-  - )
-  - ''
-  - ''
-  - '['
-  - _
-  - ']'
-  - LEFT ALT
-  - LEFT CONTROL
-  - ENTER
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ENTER
-  - {t: BACKSPACE, h: LEFT SHIFT}
-  - PLAY PAUSE
-  - PREVIOUS
-  - VOLUME DOWN
-  - VOLUME UP
-  - ''
-  - ''
-  - ''
-  - ''
-  - ':'
-  - ','
-  - .
-  - {t: '"', h: LEFT GUI}
-  - {t: /, h: LEFT SHIFT}
-  - ''
-  - ''
-  - bt
-  - {t: num_char_med_upper, type: held}
-  - SPACE
-  - BACKSPACE
-  - num_char_med_upper
-  - ''
-  - ''
-  - ''
-  num_char_med_upper:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LEFT ALT
-  - LEFT CONTROL
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '{'
-  - '}'
-  - ENTER
-  - BACKSPACE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ;
-  - <
-  - '>'
-  - {t: '"', h: LEFT GUI}
-  - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  bt:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  f_bt:
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
   - F1
   - F2
   - F3
@@ -355,16 +172,14 @@ layers:
   - ''
   - ''
   - ''
+  - \
   - ''
-  - ''
-  - {t: gaming, h: toggle}
-  - {type: held}
-  - {type: held}
-  - ''
+  - {t: default, h: toggle}
   - ''
   - ''
   - ''
   - ''
   - ''
-  gaming: [ESCAPE, '', '', '2', '', '', '', '', '', '', '', '', '', TAB, '1', W, '3', R, '', '', '', '', '', '', '', LSHFT, A, S, D, F, '', '', '', Z, E, ENTER, '',
-    '', '', '', C, '', '', '', '', '', '', '', '', '', gaming, '', '', '', SPACE, Y, '', '', '', '']
+  - ''
+  - ''
+  - ''
