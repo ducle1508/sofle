@@ -63,11 +63,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC                   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                 &kp N6            &kp N7    &kp N8    &kp N9     &kp N0    &kp MINUS
-&kp TAB                   &kp Q   &kp W   &kp E   &kp R   &kp T                                                                  &kp Y             &kp U     &kp I     &kp O      &kp P     &kp LBKT
-&kp TAB                   &kp A   &kp S   &kp D   &kp F   &kp G                                                                  &kp H             &kp J     &kp K     &kp L      &kp SEMI  &kp ENTER
-&mt LEFT_SHIFT BACKSPACE  &kp Z   &kp X   &kp C   &kp V   &kp B                  &kp C_PLAY_PAUSE      &kp C_MUTE                &kp N             &kp M     &kp UP    &kp COMMA  &kp DOT   &kp FSLH
-                                  &none   &none   &none   &mt LEFT_CONTROL HOME  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &mt LEFT_ALT END  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC                   &kp N1  &kp N2  &kp N3  &kp N4            &kp N5                                                              &kp N6       &kp N7  &kp N8     &kp N9      &kp N0            &kp F12
+&kp TAB                   &kp Q   &kp W   &kp E   &kp R             &kp T                                                               &kp Y        &kp U   &kp I      &kp O       &kp P             &kp BACKSLASH
+&kp SEMICOLON             &kp A   &kp S   &kp D   &kp F             &kp G                                                               &kp H        &kp J   &kp K      &kp L       &kp SINGLE_QUOTE  &kp ENTER
+&mt LEFT_SHIFT BACKSPACE  &kp Z   &kp X   &kp C   &kp V             &kp B               &kp C_PLAY_PAUSE      &kp C_MUTE                &kp N        &kp M   &kp COMMA  &kp PERIOD  &kp SLASH         &kp GRAVE
+                                  &mo 3   &trans  &kp LEFT_CONTROL  &mt LEFT_ALT MINUS  &mt LEFT_GUI SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 1 EQUAL  &trans  &trans     &mo 2
             >;
 
             sensor-bindings =
@@ -77,21 +77,31 @@
 
         nav {
             bindings = <
-&kp F12         &kp F1      &kp F2  &kp F3  &kp F4        &kp F5                                     &kp F6         &kp F7           &kp F8     &kp F9         &kp F10        &kp F11
-&kp GRAVE       &kp ESCAPE  &kp W   &kp F   &kp CAPSLOCK  &kp LG(P)                                  &kp L          &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)    &kp LEFT_ALT   &kp LEFT_CONTROL
-&kp TAB         &kp A       &kp R   &kp S   &kp LEFT_GUI  &kp LG(T)                                  &kp LS(ENTER)  &kp LEFT         &kp DOWN   &kp RIGHT      &kp LC(ENTER)  &kp ENTER
-&kp LEFT_SHIFT  &kp Z       &kp X   &kp C   &kp LG(V)     &kp LG(B)  &none          &none            &kp K          &kp PAGE_UP      &kp SPACE  &kp PAGE_DOWN  &kp LEFT_GUI   &kp BSLH
-                            &none   &none   &none         &kp HOME   &lt 0 SPACE    &lt 0 BACKSPACE  &kp END        &none            &none      &none
+&kp ESCAPE     &trans  &trans  &trans  &trans            &trans                                      &trans    &trans            &trans    &trans             &trans   &trans
+&kp TAB        &trans  &trans  &trans  &trans            &trans                                      &trans    &kp LEFT_BRACKET  &kp UP    &kp RIGHT_BRACKET  &trans   &trans
+&trans         &trans  &trans  &trans  &kp LEFT_SHIFT    &trans                                      &kp HOME  &kp LEFT          &kp DOWN  &kp RIGHT          &kp END  &trans
+&kp BACKSPACE  &trans  &trans  &trans  &trans            &trans        &trans                &trans  &trans    &trans            &trans    &trans             &trans   &trans
+                       &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI SPACE    &trans  &trans    &trans            &trans    &trans
             >;
         };
 
-        f_bt {
+        f {
             bindings = <
-&kp F12     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                        &none   &none   &none   &none   &none    &none
-&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12                       &none   &none   &none   &none   &none    &none
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none  &none   &none   &none   &none   &none    &kp BSLH
-                          &none         &tog 0        &none         &none         &none    &none  &none   &none   &none   &none
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        bt {
+            bindings = <
+&trans      &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
