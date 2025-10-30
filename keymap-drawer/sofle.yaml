@@ -51,7 +51,7 @@ layers:
   - .
   - /
   - '`'
-  - bt
+  - {t: SPACE, h: bt}
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - {t: '-', h: LEFT ALT}
