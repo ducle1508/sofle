@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
+  - ']'
   - TAB
   - Q
   - W
@@ -47,22 +47,22 @@ layers:
   - MUTE
   - N
   - M
-  - ','
+  - UP
+  - .
   - .
   - /
-  - '`'
-  - {t: SPACE, h: LEFT CONTROL}
-  - {t: F12, h: LEFT ALT}
-  - HOME
-  - {t: END, h: nav_f}
+  - {t: ;, h: LEFT CONTROL}
+  - {t: '`', h: LEFT ALT}
+  - {t: '=', h: LEFT SHIFT}
+  - {t: HOME, h: nav_f}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: END, h: nav_f}
   - LEFT
-  - UP
   - DOWN
   - RIGHT
   nav_f:
-  - ESCAPE
+  - F12
   - F1
   - F2
   - F3
@@ -85,8 +85,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ']'
-  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,7 +94,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ▽, type: trans}
@@ -108,10 +108,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - LEFT CONTROL
   - LEFT ALT
   - {t: ▽, type: trans}
