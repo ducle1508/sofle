@@ -48,7 +48,7 @@ layers:
   - N
   - M
   - UP
-  - .
+  - ','
   - .
   - /
   - {t: ;, h: LEFT CONTROL}
@@ -74,7 +74,6 @@ layers:
   - F9
   - F10
   - F11
-  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,7 +97,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BACKSPACE, h: LEFT SHIFT}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,7 +114,7 @@ layers:
   - \
   - LEFT CONTROL
   - LEFT ALT
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {type: held}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
