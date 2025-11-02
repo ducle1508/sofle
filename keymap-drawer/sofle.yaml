@@ -52,12 +52,12 @@ layers:
   - .
   - /
   - {t: ;, h: LEFT CONTROL}
-  - {t: '`', h: LEFT ALT}
-  - {t: '=', h: LEFT SHIFT}
+  - '`'
+  - {t: '=', h: LEFT ALT}
   - {t: HOME, h: nav_f}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: END, h: nav_f}
+  - {t: END, h: LEFT CONTROL}
   - LEFT
   - DOWN
   - RIGHT
@@ -113,8 +113,8 @@ layers:
   - {t: ▽, type: trans}
   - \
   - LEFT CONTROL
+  - {t: ▽, type: trans}
   - LEFT ALT
-  - LEFT SHIFT
   - {type: held}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
