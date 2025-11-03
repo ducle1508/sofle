@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - '-'
+  - ;
   - A
   - S
   - D
@@ -54,7 +54,7 @@ layers:
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - LEFT ALT
-  - {t: ;, h: nav_f}
+  - {t: '-', h: nav_f}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: '=', h: nav_f}
