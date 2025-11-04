@@ -27,8 +27,8 @@ layers:
   - \
   - ;
   - A
-  - S
-  - {t: D, h: LEFT SHIFT}
+  - {t: S, h: LEFT SHIFT}
+  - D
   - F
   - G
   - H
@@ -88,8 +88,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
