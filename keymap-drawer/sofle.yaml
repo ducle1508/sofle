@@ -51,16 +51,16 @@ layers:
   - .
   - /
   - END
-  - {t: BACKSPACE, h: LEFT ALT}
   - LEFT ARROW
   - UP ARROW
+  - {t: BACKSPACE, h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: '=', h: nav_f}
+  - {t: SPACE, h: RIGHT CONTROL}
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: SPACE, h: LEFT CONTROL}
   nav_f:
   - '`'
   - F1
