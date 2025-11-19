@@ -37,7 +37,7 @@ layers:
   - L
   - ''''
   - ENTER
-  - {t: BACKSPACE, h: LEFT CONTROL}
+  - {t: ;, h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -96,7 +96,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - ;
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
