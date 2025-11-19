@@ -37,7 +37,7 @@ layers:
   - L
   - ''''
   - ENTER
-  - HOME
+  - {t: BACKSPACE, h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -50,19 +50,19 @@ layers:
   - ','
   - .
   - /
-  - END
+  - '`'
   - LEFT ARROW
   - UP ARROW
-  - {t: BACKSPACE, h: LEFT ALT}
+  - {t: HOME, h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: '=', h: nav_f}
-  - {t: SPACE, h: RIGHT CONTROL}
+  - {t: END, h: RIGHT CONTROL}
   - DOWN ARROW
   - RIGHT ARROW
   nav_f:
-  - '`'
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
