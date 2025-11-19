@@ -37,7 +37,7 @@ layers:
   - L
   - ''''
   - ENTER
-  - {t: ;, h: LEFT CONTROL}
+  - {t: '`', h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - '`'
+  - ;
   - LEFT ARROW
   - UP ARROW
   - {t: HOME, h: LEFT ALT}
