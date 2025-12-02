@@ -62,7 +62,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   nav_f:
-  - {t: ▽, type: trans}
+  - bt
   - F1
   - F2
   - F3
@@ -117,13 +117,13 @@ layers:
   - {t: ▽, type: trans}
   - CAPSLOCK
   - {t: ▽, type: trans}
-  - bt
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bt:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
