@@ -52,17 +52,17 @@ layers:
   - /
   - ;
   - LEFT ARROW
-  - UP ARROW
+  - bt
   - {t: HOME, h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: '=', h: nav_f}
   - {t: END, h: RIGHT CONTROL}
-  - DOWN ARROW
+  - \
   - RIGHT ARROW
   nav_f:
-  - bt
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -78,14 +78,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - END
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bt:
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,12 +174,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
