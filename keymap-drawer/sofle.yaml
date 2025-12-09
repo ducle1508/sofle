@@ -12,12 +12,12 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '`'
+  - ;
   - '['
   - Q
   - W
   - E
-  - {t: R, h: CAPSLOCK}
+  - R
   - T
   - Y
   - U
@@ -53,12 +53,12 @@ layers:
   - END
   - LEFT ARROW
   - UP
-  - {t: \, h: LEFT ALT}
+  - {t: '`', h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: '=', h: nav_f}
-  - {t: ;, h: RIGHT CONTROL}
+  - {t: \, h: RIGHT CONTROL}
   - DOWN
   - RIGHT ARROW
   nav_f:
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
