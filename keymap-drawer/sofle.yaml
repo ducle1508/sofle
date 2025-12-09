@@ -12,12 +12,12 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
+  - '`'
   - '['
   - Q
   - W
   - E
-  - R
+  - {t: R, h: CAPSLOCK}
   - T
   - Y
   - U
@@ -37,7 +37,7 @@ layers:
   - L
   - ''''
   - ENTER
-  - {t: '`', h: LEFT CONTROL}
+  - {t: HOME, h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -50,19 +50,19 @@ layers:
   - ','
   - .
   - /
-  - ;
+  - END
   - LEFT ARROW
-  - bt
-  - {t: HOME, h: LEFT ALT}
+  - UP
+  - {t: \, h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: '=', h: nav_f}
-  - {t: END, h: RIGHT CONTROL}
-  - \
+  - {t: ;, h: RIGHT CONTROL}
+  - DOWN
   - RIGHT ARROW
   nav_f:
-  - {t: ▽, type: trans}
+  - F12
   - F1
   - F2
   - F3
@@ -78,10 +78,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - END
+  - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,10 +112,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - bt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -173,13 +173,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
