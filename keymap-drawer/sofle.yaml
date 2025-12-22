@@ -16,26 +16,26 @@ layers:
   - '['
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - D
+  - J
+  - L
+  - U
+  - Y
+  - ''''
   - ']'
   - TAB
   - A
-  - {t: S, h: LEFT SHIFT}
+  - {t: R, h: LEFT SHIFT}
+  - S
+  - T
   - D
-  - F
-  - G
   - H
-  - J
-  - K
-  - L
-  - ''''
+  - N
+  - E
+  - I
+  - O
   - ENTER
   - {t: HOME, h: LEFT CONTROL}
   - Z
@@ -45,7 +45,7 @@ layers:
   - B
   - PLAY PAUSE
   - MUTE
-  - N
+  - K
   - M
   - ','
   - .
