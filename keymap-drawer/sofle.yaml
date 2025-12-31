@@ -56,8 +56,8 @@ layers:
   - {t: '`', h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
-  - {t: BACKSPACE, h: LEFT SHIFT}
-  - {t: '=', h: nav_f}
+  - {t: BACKSPACE, h: nav_f}
+  - {t: '=', h: RIGHT SHIFT}
   - {t: \, h: RIGHT CONTROL}
   - DOWN
   - RIGHT ARROW
@@ -117,8 +117,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,8 +178,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
