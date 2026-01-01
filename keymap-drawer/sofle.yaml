@@ -56,12 +56,12 @@ layers:
   - {t: '`', h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
-  - {t: BACKSPACE, h: nav_f}
+  - {t: BACKSPACE, h: nav_fn}
   - {t: '=', h: RIGHT SHIFT}
   - {t: \, h: RIGHT CONTROL}
   - DOWN
   - RIGHT ARROW
-  nav_f:
+  nav_fn:
   - F12
   - F1
   - F2
