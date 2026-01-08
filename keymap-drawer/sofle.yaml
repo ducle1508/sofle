@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - END
+  - {t: END, h: RIGHT ALT}
   - LEFT ARROW
   - UP
   - {t: '{', h: LEFT ALT}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,7 +96,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
