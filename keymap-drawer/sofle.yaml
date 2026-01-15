@@ -53,12 +53,12 @@ layers:
   - {t: END, h: RIGHT ALT}
   - LEFT ARROW
   - UP
-  - {t: (, h: LEFT ALT}
+  - {t: '[', h: LEFT ALT}
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_sym_fn}
   - {t: '=', h: RIGHT SHIFT}
-  - {t: ), h: RIGHT CONTROL}
+  - {t: ']', h: RIGHT CONTROL}
   - DOWN
   - RIGHT ARROW
   nav_sym_fn:
