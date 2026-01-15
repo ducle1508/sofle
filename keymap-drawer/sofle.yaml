@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - {t: END, h: RIGHT ALT}
+  - {t: END, h: LEFT ALT}
   - LEFT ARROW
   - UP
   - {t: '[', h: LEFT ALT}
@@ -58,7 +58,7 @@ layers:
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_sym_fn}
   - {t: '=', h: RIGHT SHIFT}
-  - {t: ']', h: RIGHT CONTROL}
+  - {t: ']', h: LEFT CONTROL}
   - DOWN
   - RIGHT ARROW
   nav_sym_fn:
