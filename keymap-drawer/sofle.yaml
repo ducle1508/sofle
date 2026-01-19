@@ -35,7 +35,7 @@ layers:
   - J
   - K
   - L
-  - Sft+;
+  - ;
   - ENTER
   - {t: HOME, h: LEFT CONTROL}
   - Z
@@ -57,7 +57,7 @@ layers:
   - {t: '''', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_sym_fn}
-  - {t: Sft+-, h: RIGHT SHIFT}
+  - {t: '-', h: RIGHT SHIFT}
   - {t: '=', h: LEFT CONTROL}
   - )
   - ']'
