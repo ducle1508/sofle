@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - F12
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -12,8 +12,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - '`'
+  - \
+  - '{'
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - '}'
   - TAB
   - A
   - {t: S, h: LEFT SHIFT}
@@ -35,7 +35,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - ''''
   - ENTER
   - {t: HOME, h: LEFT CONTROL}
   - Z
@@ -54,7 +54,7 @@ layers:
   - '['
   - (
   - {t: ESCAPE, h: LEFT ALT}
-  - {t: '''', h: CAPSLOCK}
+  - {t: ;, h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_sym_fn}
   - {t: '-', h: RIGHT SHIFT}
