@@ -27,8 +27,8 @@ layers:
   - '}'
   - TAB
   - A
-  - {t: R, h: LEFT SHIFT}
-  - S
+  - R
+  - {t: S, h: LEFT SHIFT}
   - T
   - D
   - H
