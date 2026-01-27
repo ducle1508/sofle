@@ -15,37 +15,37 @@ layers:
   - \
   - '{'
   - Q
-  - L
-  - D
-  - P
+  - W
+  - E
+  - R
+  - T
   - Y
-  - '='
-  - F
-  - O
   - U
-  - J
+  - I
+  - O
+  - P
   - '}'
   - TAB
-  - C
-  - {t: R, h: LEFT SHIFT}
+  - A
   - {t: S, h: LEFT SHIFT}
-  - T
+  - {t: D, h: LEFT SHIFT}
+  - F
   - G
   - H
-  - N
-  - E
-  - I
-  - A
+  - J
+  - K
+  - L
+  - '='
   - ENTER
   - {t: HOME, h: LEFT CONTROL}
   - Z
   - X
-  - W
+  - C
   - V
   - B
   - PLAY PAUSE
   - MUTE
-  - K
+  - N
   - M
   - ','
   - .
