@@ -18,7 +18,7 @@ layers:
   - W
   - F
   - P
-  - G
+  - V
   - J
   - L
   - U
@@ -27,10 +27,10 @@ layers:
   - '}'
   - TAB
   - A
-  - R
+  - {t: R, h: LEFT SHIFT}
   - {t: S, h: LEFT SHIFT}
   - T
-  - D
+  - G
   - H
   - N
   - E
@@ -41,7 +41,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - D
   - B
   - PLAY PAUSE
   - MUTE
@@ -54,11 +54,11 @@ layers:
   - '['
   - (
   - {t: ESCAPE, h: LEFT ALT}
-  - {t: '''', h: CAPSLOCK}
+  - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_sym_fn}
-  - {t: '-', h: RIGHT SHIFT}
-  - {t: '=', h: LEFT CONTROL}
+  - {t: '=', h: RIGHT SHIFT}
+  - {t: '''', h: LEFT CONTROL}
   - )
   - ']'
   nav_sym_fn:
@@ -75,21 +75,21 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - UP
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&'
-  - {t: '*', h: LEFT SHIFT}
   - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
