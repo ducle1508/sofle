@@ -15,18 +15,18 @@ layers:
   - \
   - '{'
   - Q
-  - W
-  - F
-  - P
-  - D
-  - J
   - L
-  - U
+  - D
+  - P
   - Y
-  - ;
+  - '='
+  - F
+  - O
+  - U
+  - J
   - '}'
   - TAB
-  - A
+  - C
   - {t: R, h: LEFT SHIFT}
   - {t: S, h: LEFT SHIFT}
   - T
@@ -35,12 +35,12 @@ layers:
   - N
   - E
   - I
-  - O
+  - A
   - ENTER
   - {t: HOME, h: LEFT CONTROL}
   - Z
   - X
-  - C
+  - W
   - V
   - B
   - PLAY PAUSE
@@ -57,8 +57,8 @@ layers:
   - {t: '-', h: CAPSLOCK}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_sym_fn}
-  - {t: '=', h: RIGHT SHIFT}
-  - {t: '''', h: LEFT CONTROL}
+  - {t: '''', h: RIGHT SHIFT}
+  - {t: ;, h: LEFT CONTROL}
   - )
   - ']'
   nav_sym_fn:
