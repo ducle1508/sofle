@@ -63,11 +63,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE              &kp N1  &kp N2            &kp N3                &kp N4               &kp N5                                                            &kp N6                 &kp N7                      &kp N8                 &kp N9             &kp N0     &kp BACKSLASH
-&kp LEFT_BRACE         &kp Q   &kp W             &kp F                 &kp P                &kp G                                                             &kp J                  &kp L                       &kp U                  &kp Y              &kp EQUAL  &kp RIGHT_BRACE
-&kp TAB                &kp A   &mt LEFT_SHIFT R  &mt LEFT_SHIFT S      &kp T                &kp D                                                             &kp H                  &kp N                       &kp E                  &kp I              &kp O      &kp ENTER
-&mt LEFT_CONTROL HOME  &kp Z   &kp X             &kp C                 &kp V                &kp B                      &kp C_PLAY_PAUSE      &kp C_MUTE       &kp K                  &kp M                       &kp COMMA              &kp PERIOD         &kp SLASH  &mt LEFT_ALT END
-                               &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &mt LEFT_ALT ESCAPE  &mt CAPSLOCK SINGLE_QUOTE  &mt LEFT_GUI SPACE    &lt 1 BACKSPACE  &mt RIGHT_SHIFT MINUS  &mt LEFT_CONTROL SEMICOLON  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&trans          &kp NUMBER_4        &kp N2            &kp N3            &kp NUMBER_1             &kp N5                                                   &kp N6               &kp N9              &kp N0            &kp N8              &kp N7              &trans
+&kp GRAVE       &kp Q               &kp W             &kp R             &kp C                    &kp V                                                    &kp COMMA            &kp L               &kp U             &kp P               &kp SEMICOLON       &kp NON_US_BACKSLASH
+&kp LEFT_BRACE  &mt LEFT_CONTROL D  &mt LEFT_ALT A    &mt LEFT_SHIFT S  &mt LEFT_GUI T           &kp G                                                    &kp H                &mt LEFT_GUI N      &mt LEFT_SHIFT E  &mt LEFT_ALT I      &mt LEFT_CONTROL O  &kp RIGHT_BRACE
+&kp F12         &kp J               &kp X             &kp Z             &kp F                    &kp B               &kp C_PLAY_PAUSE    &kp C_MUTE       &kp K                &kp M               &kp Y             &kp PERIOD          &kp SLASH           &kp F11
+                                    &mt CAPSLOCK TAB  &trans            &mt LEFT_CONTROL ESCAPE  &mt LEFT_GUI MINUS  &lt 3 SPACE         &lt 1 BACKSPACE  &mt RIGHT_SHIFT SQT  &mt LEFT_ALT EQUAL  &trans            &mt CAPSLOCK ENTER
             >;
 
             sensor-bindings =
@@ -75,13 +75,23 @@
                 <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
-        nav_sym_fn {
+        nav {
             bindings = <
-&kp F12  &kp F1  &kp F2          &kp F3          &kp F4  &kp F5                    &kp F6  &kp F7            &kp F8     &kp F9             &kp F10  &kp F11
-&trans   &trans  &trans          &trans          &trans  &trans                    &trans  &kp LEFT_BRACKET  &kp UP     &kp RIGHT_BRACKET  &trans   &trans
-&trans   &trans  &kp LEFT_SHIFT  &kp LEFT_SHIFT  &trans  &trans                    &trans  &kp LEFT          &kp DOWN   &kp RIGHT          &trans   &trans
-&trans   &trans  &trans          &trans          &trans  &trans  &trans    &trans  &trans  &kp LEFT_BRACE    &kp SPACE  &kp RIGHT_BRACE    &trans   &trans
-                 &mo 2           &trans          &trans  &trans  &trans    &trans  &trans  &trans            &trans     &trans
+&trans  &trans  &trans             &trans  &trans            &trans                    &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans             &trans  &trans            &trans                    &trans  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &trans  &mt HOME LEFT_ALT  &trans  &mt LEFT_GUI END  &trans                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans             &trans  &trans            &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+                &trans             &trans  &trans            &trans  &trans    &trans  &trans  &trans    &trans    &trans
+            >;
+        };
+
+        num_sym_fn {
+            bindings = <
+&mo 3   &trans                   &trans            &trans                       &trans                      &trans                    &trans  &trans                         &trans                            &trans              &trans                  &trans
+&trans  &kp N4                   &kp N2            &kp N3                       &kp N1                      &kp N5                    &kp N6  &kp N9                         &kp N0                            &kp N8              &kp N7                  &trans
+&trans  &mt LEFT_CONTROL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_SHIFT LEFT_BRACKET  &mt LEFT_GUI RIGHT_BRACKET  &trans                    &trans  &mt LEFT_GUI LEFT_PARENTHESIS  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &mt LEFT_ALT ENTER  &mt LEFT_CONTROL EQUAL  &trans
+&trans  &kp F4                   &kp F2            &kp F3                       &kp F1                      &kp F5  &trans    &trans  &kp F6  &kp F9                         &kp F10                           &kp F8              &kp F7                  &trans
+                                 &trans            &trans                       &trans                      &trans  &trans    &trans  &trans  &trans                         &trans                            &trans
             >;
         };
 
