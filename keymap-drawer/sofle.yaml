@@ -1,79 +1,67 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - '`'
-  - '1'
+  - {t: ▽, type: trans}
+  - '4'
   - '2'
   - '3'
-  - '4'
+  - '1'
   - '5'
   - '6'
-  - '7'
-  - '8'
   - '9'
   - '0'
-  - \
-  - '{'
+  - '8'
+  - '7'
+  - {t: ▽, type: trans}
+  - '`'
   - Q
   - W
-  - F
-  - P
-  - G
-  - J
-  - L
-  - U
-  - Y
-  - '='
-  - '}'
-  - TAB
-  - A
-  - {t: R, h: LEFT SHIFT}
-  - {t: S, h: LEFT SHIFT}
-  - T
-  - D
-  - H
-  - N
-  - E
-  - I
-  - O
-  - ENTER
-  - {t: HOME, h: LEFT CONTROL}
-  - Z
-  - X
+  - R
   - C
   - V
+  - ','
+  - L
+  - U
+  - P
+  - ;
+  - \
+  - '{'
+  - {t: D, h: LEFT CONTROL}
+  - {t: A, h: LEFT ALT}
+  - {t: S, h: LEFT SHIFT}
+  - {t: T, h: LEFT GUI}
+  - G
+  - H
+  - {t: N, h: LEFT GUI}
+  - {t: E, h: LEFT SHIFT}
+  - {t: I, h: LEFT ALT}
+  - {t: O, h: LEFT CONTROL}
+  - '}'
+  - F12
+  - J
+  - X
+  - Z
+  - F
   - B
   - PLAY PAUSE
   - MUTE
   - K
   - M
-  - ','
+  - Y
   - .
   - /
-  - {t: END, h: LEFT ALT}
-  - '['
-  - (
-  - {t: ESCAPE, h: LEFT ALT}
-  - {t: '''', h: CAPSLOCK}
-  - {t: SPACE, h: LEFT GUI}
-  - {t: BACKSPACE, h: nav_sym_fn}
-  - {t: '-', h: RIGHT SHIFT}
-  - {t: ;, h: LEFT CONTROL}
-  - )
-  - ']'
-  nav_sym_fn:
-  - F12
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
   - F11
+  - {t: TAB, h: CAPSLOCK}
+  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: '-', h: LEFT GUI}
+  - {t: SPACE, h: bt}
+  - {t: BACKSPACE, h: nav}
+  - {t: '''', h: RIGHT SHIFT}
+  - {t: '=', h: LEFT ALT}
+  - {t: ▽, type: trans}
+  - {t: ENTER, h: CAPSLOCK}
+  nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -81,16 +69,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
   - UP
-  - ']'
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - LEFT SHIFT
+  - {t: LEFT ALT, h: HOME}
   - {t: ▽, type: trans}
+  - {t: END, h: LEFT GUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -107,17 +107,78 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '{'
-  - SPACE
-  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - bt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  num_sym_fn:
+  - bt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '2'
+  - '3'
+  - '1'
+  - '5'
+  - '6'
+  - '9'
+  - '0'
+  - '8'
+  - '7'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: TAB, h: LEFT ALT}
+  - {t: '[', h: LEFT SHIFT}
+  - {t: ']', h: LEFT GUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: (, h: LEFT GUI}
+  - {t: ), h: LEFT SHIFT}
+  - {t: ENTER, h: LEFT ALT}
+  - {t: '=', h: LEFT CONTROL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F4
+  - F2
+  - F3
+  - F1
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F9
+  - F10
+  - F8
+  - F7
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,12 +234,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
