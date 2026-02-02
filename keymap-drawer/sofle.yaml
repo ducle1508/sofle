@@ -55,7 +55,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ESCAPE, h: LEFT CONTROL}
   - {t: '-', h: LEFT GUI}
-  - {t: SPACE, h: bt}
+  - {t: SPACE, h: num_sym_fn}
   - {t: BACKSPACE, h: nav}
   - {t: '''', h: RIGHT SHIFT}
   - {t: '=', h: LEFT ALT}
@@ -177,14 +177,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bt:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
