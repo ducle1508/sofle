@@ -16,38 +16,38 @@ layers:
   - '`'
   - Q
   - W
-  - R
-  - C
-  - V
-  - ','
-  - L
-  - U
+  - F
   - P
+  - G
+  - J
+  - L
+  - O
+  - U
   - ;
   - \
   - '{'
-  - {t: D, h: LEFT CONTROL}
-  - {t: A, h: LEFT ALT}
+  - C
+  - R
   - {t: S, h: LEFT SHIFT}
   - {t: T, h: LEFT GUI}
-  - G
+  - D
   - H
   - {t: N, h: LEFT GUI}
   - {t: E, h: LEFT SHIFT}
-  - {t: I, h: LEFT ALT}
-  - {t: O, h: LEFT CONTROL}
+  - I
+  - A
   - '}'
   - F12
-  - J
-  - X
   - Z
-  - F
+  - X
+  - V
+  - Y
   - B
   - PLAY PAUSE
   - MUTE
   - K
   - M
-  - Y
+  - ','
   - .
   - /
   - F11
@@ -87,11 +87,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LEFT ALT, h: HOME}
-  - {t: ▽, type: trans}
-  - {t: END, h: LEFT GUI}
-  - {t: ▽, type: trans}
+  - {t: Gui+X, h: LEFT CONTROL}
+  - {t: Gui+A, h: LEFT ALT}
+  - {t: Gui+C, h: LEFT SHIFT}
+  - {t: Gui+V, h: LEFT GUI}
+  - Gui+Z
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -156,8 +156,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: (, h: LEFT GUI}
   - {t: ), h: LEFT SHIFT}
-  - {t: ENTER, h: LEFT ALT}
-  - {t: '=', h: LEFT CONTROL}
+  - {t: '=', h: LEFT ALT}
+  - {t: ENTER, h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F4
