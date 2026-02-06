@@ -32,8 +32,8 @@ layers:
   - {t: T, h: LEFT GUI}
   - G
   - H
-  - {t: N, h: LEFT GUI}
-  - {t: E, h: LEFT SHIFT}
+  - N
+  - E
   - I
   - A
   - '}'
