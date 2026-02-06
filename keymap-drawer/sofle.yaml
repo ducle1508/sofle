@@ -16,7 +16,7 @@ layers:
   - '`'
   - Q
   - W
-  - F
+  - D
   - P
   - V
   - J
@@ -30,7 +30,7 @@ layers:
   - R
   - {t: S, h: LEFT SHIFT}
   - {t: T, h: LEFT GUI}
-  - D
+  - G
   - H
   - {t: N, h: LEFT GUI}
   - {t: E, h: LEFT SHIFT}
@@ -41,7 +41,7 @@ layers:
   - Z
   - X
   - C
-  - G
+  - F
   - B
   - PLAY PAUSE
   - MUTE
@@ -54,8 +54,8 @@ layers:
   - {t: TAB, h: CAPSLOCK}
   - {t: ▽, type: trans}
   - {t: ESCAPE, h: LEFT CONTROL}
-  - {t: '-', h: num_sym_fn}
-  - {t: SPACE, h: LEFT GUI}
+  - {t: '-', h: LEFT GUI}
+  - {t: SPACE, h: num_sym_fn}
   - {t: BACKSPACE, h: nav}
   - {t: '''', h: RIGHT SHIFT}
   - {t: '=', h: LEFT ALT}
@@ -176,8 +176,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -237,8 +237,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
