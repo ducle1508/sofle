@@ -77,10 +77,10 @@
 
         nav {
             bindings = <
-&trans  &trans                  &trans              &trans                &trans              &trans                       &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans                  &trans              &trans                &trans              &trans                       &trans  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &mt LEFT_CONTROL LG(X)  &mt LEFT_ALT LG(A)  &mt LEFT_SHIFT LG(C)  &mt LEFT_GUI LG(V)  &kp LG(Z)                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans                  &trans              &trans                &trans              &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans                  &trans              &trans                &trans              &trans                       &trans  &trans    &trans    &trans     &trans     &trans
+&trans  &trans                  &trans              &trans                &trans              &trans                       &trans  &kp HOME  &kp UP    &kp END    &trans     &trans
+&trans  &mt LEFT_CONTROL LG(X)  &mt LEFT_ALT LG(A)  &mt LEFT_SHIFT LG(C)  &mt LEFT_GUI LG(V)  &kp LG(Z)                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &trans
+&trans  &trans                  &trans              &trans                &trans              &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
                                 &trans              &trans                &trans              &trans     &trans    &trans  &trans  &trans    &trans    &trans
             >;
         };
