@@ -87,11 +87,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+X, h: LEFT CONTROL}
-  - {t: Gui+A, h: LEFT ALT}
-  - {t: Gui+C, h: LEFT SHIFT}
-  - {t: Gui+V, h: LEFT GUI}
-  - Gui+Z
+  - {t: ']', h: LEFT CONTROL}
+  - {t: '[', h: LEFT ALT}
+  - {t: ), h: LEFT SHIFT}
+  - {t: (, h: LEFT GUI}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -99,18 +99,18 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F4
+  - F2
+  - F3
+  - F1
+  - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F9
+  - F10
+  - F8
+  - F7
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -136,42 +136,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '2'
-  - '3'
-  - '1'
+  - {t: ▽, type: trans}
+  - Gui+A
+  - Gui+C
+  - Gui+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '4', h: LEFT CONTROL}
+  - {t: '2', h: LEFT ALT}
+  - {t: '3', h: LEFT SHIFT}
+  - {t: '1', h: LEFT GUI}
   - '5'
   - '6'
-  - '9'
-  - '0'
-  - '8'
-  - '7'
+  - {t: '9', h: LEFT GUI}
+  - {t: '0', h: LEFT SHIFT}
+  - {t: '8', h: LEFT ALT}
+  - {t: '7', h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ESCAPE, h: LEFT CONTROL}
-  - {t: TAB, h: LEFT ALT}
-  - {t: '[', h: LEFT SHIFT}
-  - {t: ']', h: LEFT GUI}
+  - {t: ▽, type: trans}
+  - Gui+X
+  - Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: (, h: LEFT GUI}
-  - {t: ), h: LEFT SHIFT}
-  - {t: '=', h: LEFT ALT}
-  - {t: ENTER, h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F4
-  - F2
-  - F3
-  - F1
-  - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F6
-  - F9
-  - F10
-  - F8
-  - F7
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
