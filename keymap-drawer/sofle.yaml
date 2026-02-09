@@ -91,7 +91,7 @@ layers:
   - {t: '[', h: LEFT ALT}
   - {t: ), h: LEFT SHIFT}
   - {t: (, h: LEFT GUI}
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -161,9 +161,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+X
-  - Gui+Z
-  - {t: ▽, type: trans}
+  - TAB
+  - '-'
+  - ESCAPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
