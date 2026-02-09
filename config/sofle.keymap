@@ -88,7 +88,7 @@
         num_sym_fn {
             bindings = <
 &mo 3   &trans                     &trans                 &trans                   &trans                 &trans                          &trans        &trans                 &trans                   &trans                 &trans                     &trans
-&trans  &trans                     &kp LG(A)              &kp LG(C)                &kp LG(V)              &trans                          &trans        &trans                 &trans                   &trans                 &trans                     &trans
+&trans  &kp LG(X)                  &kp LG(A)              &kp LG(C)                &kp LG(V)              &kp LG(Z)                       &trans        &trans                 &trans                   &trans                 &trans                     &trans
 &trans  &mt LEFT_CONTROL NUMBER_4  &mt LEFT_ALT NUMBER_2  &mt LEFT_SHIFT NUMBER_3  &mt LEFT_GUI NUMBER_1  &kp NUMBER_5                    &kp NUMBER_6  &mt LEFT_GUI NUMBER_9  &mt LEFT_SHIFT NUMBER_0  &mt LEFT_ALT NUMBER_8  &mt LEFT_CONTROL NUMBER_7  &trans
 &trans  &trans                     &kp LG(X)              &kp LG(Z)                &trans                 &trans        &trans    &trans  &trans        &trans                 &trans                   &trans                 &trans                     &trans
                                    &trans                 &trans                   &trans                 &trans        &trans    &trans  &trans        &trans                 &trans                   &trans
