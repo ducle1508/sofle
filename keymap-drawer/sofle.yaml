@@ -2,16 +2,16 @@ layout: {zmk_keyboard: sofle}
 layers:
   default:
   - {t: ▽, type: trans}
-  - '4'
+  - '1'
   - '2'
   - '3'
-  - '1'
+  - '4'
   - '5'
   - '6'
+  - '7'
+  - '8'
   - '9'
   - '0'
-  - '8'
-  - '7'
   - {t: ▽, type: trans}
   - '`'
   - Q
@@ -99,18 +99,18 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F4
+  - F1
   - F2
   - F3
-  - F1
+  - F4
   - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
+  - F7
+  - F8
   - F9
   - F10
-  - F8
-  - F7
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,16 +148,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '4', h: LEFT CONTROL}
+  - {t: '1', h: LEFT CONTROL}
   - {t: '2', h: LEFT ALT}
   - {t: '3', h: LEFT SHIFT}
-  - {t: '1', h: LEFT GUI}
+  - {t: '4', h: LEFT GUI}
   - '5'
   - '6'
-  - {t: '9', h: LEFT GUI}
-  - {t: '0', h: LEFT SHIFT}
-  - {t: '8', h: LEFT ALT}
-  - {t: '7', h: LEFT CONTROL}
+  - {t: '7', h: LEFT GUI}
+  - {t: '8', h: LEFT SHIFT}
+  - {t: '9', h: LEFT ALT}
+  - {t: '0', h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
