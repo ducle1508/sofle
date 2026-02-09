@@ -136,11 +136,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+X
   - Gui+A
   - Gui+C
   - Gui+V
-  - {t: ▽, type: trans}
+  - Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
