@@ -103,7 +103,7 @@ layers:
   - TAB
   - '['
   - ']'
-  - {t: ▽, type: trans}
+  - Gui+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
