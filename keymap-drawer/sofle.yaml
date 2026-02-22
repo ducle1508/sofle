@@ -37,7 +37,7 @@ layers:
   - I
   - A
   - ']'
-  - (
+  - TAB
   - Z
   - X
   - C
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - )
+  - ENTER
   - {t: (, h: CAPSLOCK}
   - '{'
   - {t: ESCAPE, h: LEFT CONTROL}
