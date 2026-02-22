@@ -63,11 +63,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans          &kp N1  &kp N2            &kp N3            &kp N4                   &kp N5                                              &kp N6               &kp N7              &kp N8     &kp N9              &kp N0         &trans
-&kp GRAVE       &kp Q   &kp W             &kp D             &kp P                    &kp V                                               &kp J                &kp L               &kp O      &kp U               &kp SEMICOLON  &kp NON_US_BACKSLASH
-&kp LEFT_BRACE  &kp Y   &kp R             &mt LEFT_SHIFT S  &mt LEFT_GUI T           &kp G                                               &kp H                &kp N               &kp E      &kp I               &kp A          &kp RIGHT_BRACE
-&kp TAB         &kp Z   &kp X             &kp C             &kp F                    &kp B        &kp C_PLAY_PAUSE      &kp C_MUTE       &kp K                &kp M               &kp COMMA  &kp PERIOD          &kp SLASH      &kp ENTER
-                        &mt CAPSLOCK TAB  &trans            &mt LEFT_CONTROL ESCAPE  &lt 1 MINUS  &mt LEFT_GUI SPACE    &lt 1 BACKSPACE  &mt RIGHT_SHIFT SQT  &mt LEFT_ALT EQUAL  &trans     &mt CAPSLOCK ENTER
+&trans                &kp N4  &kp N2                         &kp N3            &kp NUMBER_1             &kp N5                                              &kp N6               &kp N0              &kp N8           &kp N9                          &kp N7         &trans
+&kp GRAVE             &kp Q   &kp W                          &kp D             &kp F                    &kp V                                               &kp J                &kp L               &kp O            &kp U                           &kp SEMICOLON  &kp NON_US_BACKSLASH
+&kp LEFT_BRACKET      &kp Y   &kp R                          &mt LEFT_SHIFT S  &mt LEFT_GUI T           &kp G                                               &kp H                &kp N               &kp E            &kp I                           &kp A          &kp RIGHT_BRACKET
+&kp LEFT_PARENTHESIS  &kp Z   &kp X                          &kp C             &kp P                    &kp B        &kp C_PLAY_PAUSE      &kp C_MUTE       &kp K                &kp M               &kp COMMA        &kp PERIOD                      &kp SLASH      &kp RIGHT_PARENTHESIS
+                              &mt CAPSLOCK LEFT_PARENTHESIS  &kp LEFT_BRACE    &mt LEFT_CONTROL ESCAPE  &lt 1 MINUS  &mt LEFT_GUI SPACE    &lt 1 BACKSPACE  &mt RIGHT_SHIFT SQT  &mt LEFT_ALT EQUAL  &kp RIGHT_BRACE  &mt CAPSLOCK RIGHT_PARENTHESIS
             >;
 
             sensor-bindings =
@@ -77,11 +77,11 @@
 
         nav_num {
             bindings = <
-&mo 2   &trans                     &trans                 &trans                   &trans                 &trans                          &trans          &trans    &trans    &trans     &trans     &trans
-&trans  &kp NUMBER_4               &kp NUMBER_3           &kp NUMBER_2             &kp NUMBER_1           &kp NUMBER_5                    &trans          &kp HOME  &kp UP    &kp END    &trans     &trans
-&trans  &mt LEFT_CONTROL NUMBER_7  &mt LEFT_ALT NUMBER_8  &mt LEFT_SHIFT NUMBER_9  &mt LEFT_GUI NUMBER_0  &kp NUMBER_6                    &kp LEFT_SHIFT  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &trans
-&trans  &kp MINUS                  &kp TAB                &kp LEFT_BRACKET         &kp RIGHT_BRACKET      &kp LG(A)     &trans    &trans  &trans          &trans    &trans    &trans     &trans     &trans
-                                   &trans                 &trans                   &trans                 &trans        &trans    &trans  &trans          &trans    &trans    &trans
+&mo 2   &trans                   &trans            &trans          &trans        &trans                    &trans          &trans    &trans    &trans     &trans     &trans
+&trans  &trans                   &trans            &trans          &trans        &trans                    &trans          &kp HOME  &kp UP    &kp END    &trans     &trans
+&trans  &mt LEFT_CONTROL ESCAPE  &mt LEFT_ALT TAB  &kp LEFT_SHIFT  &kp LEFT_GUI  &trans                    &kp LEFT_SHIFT  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &trans
+&trans  &trans                   &trans            &trans          &trans        &trans  &trans    &trans  &trans          &trans    &trans    &trans     &trans     &trans
+                                 &trans            &trans          &trans        &trans  &trans    &trans  &trans          &trans    &trans    &trans
             >;
         };
 
