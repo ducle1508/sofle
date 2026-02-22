@@ -2,22 +2,22 @@ layout: {zmk_keyboard: sofle}
 layers:
   default:
   - {t: ▽, type: trans}
-  - '1'
+  - '4'
   - '2'
   - '3'
-  - '4'
+  - '1'
   - '5'
   - '6'
-  - '7'
+  - '0'
   - '8'
   - '9'
-  - '0'
+  - '7'
   - {t: ▽, type: trans}
   - '`'
   - Q
   - W
   - D
-  - P
+  - F
   - V
   - J
   - L
@@ -25,7 +25,7 @@ layers:
   - U
   - ;
   - \
-  - '{'
+  - '['
   - Y
   - R
   - {t: S, h: LEFT SHIFT}
@@ -36,12 +36,12 @@ layers:
   - E
   - I
   - A
-  - '}'
-  - TAB
+  - ']'
+  - (
   - Z
   - X
   - C
-  - F
+  - P
   - B
   - PLAY PAUSE
   - MUTE
@@ -50,17 +50,17 @@ layers:
   - ','
   - .
   - /
-  - ENTER
-  - {t: TAB, h: CAPSLOCK}
-  - {t: ▽, type: trans}
+  - )
+  - {t: (, h: CAPSLOCK}
+  - '{'
   - {t: ESCAPE, h: LEFT CONTROL}
   - {t: '-', h: nav_num}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_num}
   - {t: '''', h: RIGHT SHIFT}
   - {t: '=', h: LEFT ALT}
-  - {t: ▽, type: trans}
-  - {t: ENTER, h: CAPSLOCK}
+  - '}'
+  - {t: ), h: CAPSLOCK}
   nav_num:
   - bt
   - {t: ▽, type: trans}
@@ -75,11 +75,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '3'
-  - '2'
-  - '1'
-  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - UP
@@ -87,11 +87,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '7', h: LEFT CONTROL}
-  - {t: '8', h: LEFT ALT}
-  - {t: '9', h: LEFT SHIFT}
-  - {t: '0', h: LEFT GUI}
-  - '6'
+  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: TAB, h: LEFT ALT}
+  - LEFT SHIFT
+  - LEFT GUI
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - LEFT
   - DOWN
@@ -99,11 +99,11 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - TAB
-  - '['
-  - ']'
-  - Gui+A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
