@@ -78,7 +78,7 @@
         nav_num {
             bindings = <
 &mo 2   &trans                   &trans            &trans          &trans        &trans                    &trans          &trans    &trans    &trans     &trans     &trans
-&trans  &trans                   &trans            &trans          &trans        &trans                    &trans          &kp HOME  &kp UP    &kp END    &trans     &trans
+&trans  &trans                   &trans            &kp A           &trans        &trans                    &trans          &kp HOME  &kp UP    &kp END    &trans     &trans
 &trans  &mt LEFT_CONTROL ESCAPE  &mt LEFT_ALT TAB  &kp LEFT_SHIFT  &kp LEFT_GUI  &trans                    &kp LEFT_SHIFT  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &trans
 &trans  &trans                   &trans            &trans          &trans        &trans  &trans    &trans  &trans          &trans    &trans    &trans     &trans     &trans
                                  &trans            &trans          &trans        &trans  &trans    &trans  &trans          &trans    &trans    &trans
