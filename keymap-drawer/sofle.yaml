@@ -54,10 +54,10 @@ layers:
   - {t: (, h: CAPSLOCK}
   - '{'
   - {t: ESCAPE, h: LEFT CONTROL}
-  - {t: '-', h: nav_num}
+  - {t: '''', h: nav_num}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_num}
-  - {t: '''', h: RIGHT SHIFT}
+  - {t: '-', h: RIGHT SHIFT}
   - {t: '=', h: LEFT ALT}
   - '}'
   - {t: ), h: CAPSLOCK}
