@@ -37,7 +37,7 @@ layers:
   - I
   - A
   - ']'
-  - ESCAPE
+  - {t: ESCAPE, h: CAPSLOCK}
   - Z
   - X
   - C
@@ -50,8 +50,8 @@ layers:
   - ','
   - .
   - /
-  - '='
-  - {t: TAB, h: CAPSLOCK}
+  - {t: '=', h: CAPS}
+  - TAB
   - '{'
   - {t: (, h: LEFT CONTROL}
   - {t: '''', h: nav_num}
@@ -60,7 +60,7 @@ layers:
   - {t: '-', h: RIGHT SHIFT}
   - {t: ), h: LEFT ALT}
   - '}'
-  - {t: ENTER, h: CAPSLOCK}
+  - ENTER
   nav_num:
   - bt
   - {t: ▽, type: trans}
