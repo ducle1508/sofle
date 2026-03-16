@@ -52,14 +52,14 @@ layers:
   - /
   - {t: '=', h: CAPS}
   - TAB
-  - '{'
-  - {t: (, h: LEFT CONTROL}
+  - (
+  - {t: '{', h: LEFT CONTROL}
   - {t: '-', h: nav_num}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_num}
   - {t: '''', h: RIGHT SHIFT}
-  - {t: ), h: LEFT ALT}
-  - '}'
+  - {t: '}', h: LEFT ALT}
+  - )
   - ENTER
   nav_num:
   - bt
