@@ -26,13 +26,13 @@ layers:
   - ;
   - \
   - '['
-  - Y
-  - R
+  - {t: Y, h: LEFT CONTROL}
+  - {t: R, h: LEFT ALT}
   - {t: S, h: LEFT SHIFT}
   - {t: T, h: LEFT GUI}
   - G
   - H
-  - N
+  - {t: N, h: LEFT ALT}
   - E
   - I
   - A
@@ -54,7 +54,7 @@ layers:
   - TAB
   - (
   - {t: '{', h: LEFT ALT}
-  - {t: '-', h: LEFT SHIFT}
+  - {t: '-', h: Meh+LEFT GUI}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_fn}
   - {t: '''', h: RIGHT SHIFT}
