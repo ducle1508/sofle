@@ -26,13 +26,13 @@ layers:
   - ;
   - \
   - '['
-  - {t: Y, h: LEFT CONTROL}
-  - {t: R, h: LEFT ALT}
+  - Y
+  - R
   - {t: S, h: LEFT SHIFT}
-  - {t: T, h: LEFT GUI}
+  - {t: T, h: LEFT ALT}
   - G
   - H
-  - {t: N, h: LEFT ALT}
+  - N
   - E
   - I
   - A
