@@ -25,7 +25,7 @@ layers:
   - U
   - ;
   - \
-  - '['
+  - TAB
   - Y
   - R
   - {t: S, h: LEFT SHIFT}
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - A
-  - ']'
+  - ENTER
   - {t: ESCAPE, h: LEFT CONTROL}
   - Z
   - X
@@ -51,16 +51,16 @@ layers:
   - .
   - /
   - {t: '=', h: LEFT ALT}
-  - TAB
+  - '['
   - (
-  - {t: '{', h: LEFT ALT}
+  - {t: TAB, h: LEFT ALT}
   - {t: '-', h: Meh+LEFT GUI}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_fn}
   - {t: '''', h: RIGHT SHIFT}
-  - {t: '}', h: LEFT CONTROL}
+  - {t: ENTER, h: LEFT CONTROL}
   - )
-  - ENTER
+  - ']'
   nav_fn:
   - F12
   - F4
