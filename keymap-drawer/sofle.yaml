@@ -2,16 +2,16 @@ layout: {zmk_keyboard: sofle}
 layers:
   default:
   - bt
-  - '4'
+  - '1'
   - '2'
   - '3'
-  - '1'
+  - '4'
   - '5'
   - '6'
-  - '0'
+  - '7'
   - '8'
   - '9'
-  - '7'
+  - '0'
   - {t: ▽, type: trans}
   - '`'
   - Q
