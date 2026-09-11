@@ -2,16 +2,16 @@ layout: {zmk_keyboard: sofle}
 layers:
   default:
   - bt
-  - '1'
+  - '4'
   - '2'
   - '3'
-  - '4'
+  - '1'
   - '5'
   - '6'
-  - '7'
+  - '0'
   - '8'
   - '9'
-  - '0'
+  - '7'
   - {t: ▽, type: trans}
   - '`'
   - Q
@@ -53,12 +53,12 @@ layers:
   - {t: '=', h: LEFT ALT}
   - '['
   - (
-  - {t: TAB, h: LEFT ALT}
+  - {t: TAB, h: LEFT CONTROL}
   - {t: '-', h: Meh+LEFT GUI}
   - {t: SPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: nav_fn}
   - {t: '''', h: RIGHT SHIFT}
-  - {t: ENTER, h: LEFT CONTROL}
+  - {t: ENTER, h: LEFT ALT}
   - )
   - ']'
   nav_fn:
